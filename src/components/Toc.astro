@@ -1,0 +1,45 @@
+---
+import { Icon } from "astro-icon/components";
+
+
+const { headings, translations  } = Astro.props.frontmatter || Astro.props;
+
+function buildToc(headings: any[]) {
+  const toc: any[] = [];
+  const parentHeadings = new Map();
+  headings.forEach((h: any) => {
+    const heading = { ...h, subheadings: [] };
+    parentHeadings.set(heading.depth, heading);
+    // Change 2 to 1 if your markdown includes your <h1>
+    if (heading.depth === 2) {
+      toc.push(heading);
+    } else {
+      parentHeadings.get(heading.depth - 1).subheadings.push(heading);
+    }
+  });
+  return toc;
+}
+
+const tableOfContents = buildToc(headings);
+---
+
+<details open class="md:fixed text-sm px-2 py-2 md:px-6 md:py-4 bg-white border md:rounded-md md:left-4 md:right-auto md:top-32 cursor-pointer group max-h-24 open:max-h-80 transition-all duration-200">
+  <summary class="flex gap-3 rounded-md group-open:ring-transparent ring-offset-2 focus-visible:ring focus-visible:ring-2 focus-visible:ring-pink-300 items-center px-3 py-2 text-sm font-black"><Icon class="group-open:rotate-90 transition-all duration-300" name="chevron" />{translations.toc}</summary>
+<ul >
+  {headings && tableOfContents.map(heading => <li>
+    
+    <a href={`#${heading.slug}`}>{heading.text}</a>
+
+    {
+      heading.subheadings.length > 0 && (
+        <ul>
+          {heading.subheadings.map((subheading: any) => (
+            <li><a href={`#${subheading.slug}`}>{subheading.text}</a></li>
+          ))}
+        </ul>
+      )
+    }
+    
+    </li>)}
+ </ul>
+</details>

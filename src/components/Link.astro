@@ -1,0 +1,57 @@
+---
+import type { HTMLAttributes } from "astro/types";
+import { cva, type VariantProps } from "class-variance-authority";
+
+export interface Props extends HTMLAttributes<"a">, VariantProps<typeof link> {}
+
+const {
+  href,
+  intent = "primary",
+  size = "medium",
+  blockSpacing = "normal",
+  active = false,
+  ...rest
+} = Astro.props;
+
+const link = cva(
+  "flex gap-1 items-center transition-colors duration-200",
+  {
+    variants: {
+      intent: {
+        primary: [
+        "font-mono bg-teal-400 hover:bg-teal-300 focus:outline-none hover:ring-2 focus-visible:ring-2 ring-teal-300 ring-offset-2 rounded-full no-underline border w-fit justify-self-center"
+        ],
+        ghost: ["font-mono w-fit mx-auto hover:underline hover:decoration-1 text-gray-100 rounded-full"],
+        outline: ["font-mono border  focus:outline-none hover:ring-1 focus-visible:ring-1 ring-teal-300 ring-offset-2 rounded-full no-underline border w-fit justify-self-center"],
+        secondary: [
+          "bg-white",
+          "text-gray-800",
+          "border-gray-400",
+          "hover:bg-gray-100",
+        ],
+      },
+      size: {
+        small: ["text-sm", "py-1", "px-3"],
+        medium: ["text-base", "py-2", "px-4"],
+        prose: ["text-base"],
+      },
+      blockSpacing: {
+        normal: ["mt-0"],
+        medium: ["mt-4"],
+      },
+      active: {
+        true: [],
+      }
+    },
+    compoundVariants: [
+      { intent: "primary", size: "medium", class: "uppercase" },
+      { intent: "outline", active: true, class: "ring-1" },
+    ]
+  }
+);
+
+---
+
+<a href={href} {...rest} class={link({ intent, size, blockSpacing, active })}>
+  <slot />
+</a>

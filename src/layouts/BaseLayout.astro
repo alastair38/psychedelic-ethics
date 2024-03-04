@@ -1,0 +1,94 @@
+---
+import Footer from "@components/Footer.astro";
+import Nav from "@components/Nav.astro";
+import { ViewTransitions } from 'astro:transitions';
+import { languages } from "@data/siteData";
+import { allTranslations } from "@data/siteData";
+import Seo from "@components/Seo.astro";
+import { Icon } from "astro-icon/components";
+import { getEntries, type CollectionEntry } from "astro:content";
+import Toc from "@components/Toc.astro";
+
+const pathArray = Astro.url.pathname.split('/');
+const pageLang = pathArray[1] ? pathArray[1] : 'en';
+
+const filteredTranslations = Object.fromEntries(
+   Object.entries(allTranslations).filter(
+      ([key, value]) => pageLang === key
+   )
+);
+
+
+const translation = Object.values(filteredTranslations)[0];
+
+const htmlLang = languages.filter((lang) => lang.slug === pageLang)
+const { pageData, pageTitle, socialImage, headings, type, ...rest  } = Astro.props.frontmatter || Astro.props;
+
+const relatedPages = pageData.otherLanguages && await getEntries(pageData.otherLanguages);
+
+function getLanguage(langSlug: string) {
+  let defaultLang = 'en';
+  const langArray = langSlug.split('/');
+  if(langArray[0].length === 0) {
+    return defaultLang = 'en';
+  } else {
+    return defaultLang = langArray[0];
+  }
+}
+
+---
+<!DOCTYPE html>
+<html class="scroll-smooth scroll-pt-24" lang=`${htmlLang[0].lang}`>
+	
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		
+		<!-- SEO -->
+		<Seo pageData={pageData} pageTitle={pageTitle} socialImage={socialImage} type={type} lang={htmlLang[0].lang} />
+	
+		<ViewTransitions />
+		
+	</head>
+	
+	<body class="min-h-[101vh] flex flex-col justify-between">
+		
+		
+		<Nav translations={translation}/>
+		
+		<main class="my-6 md:my-12 p-4 mx-auto prose" >
+			<!-- {entry.data.image && <BlockhausImage intent={entry.data.width} width={entry.data.image.width} height={entry.data.image.width} alt={entry.data.alt ? entry.data.alt : ''} src={entry.data.image} />} -->
+			
+		 <div>
+			 
+			 <h1 class="text-3xl">{pageData?.title}</h1>
+			 
+			 {headings && headings.length > 0 && <Toc headings={headings} translations={translation}/>}
+			
+			 <slot />
+			
+			 <div class="flex items-center rounded-md gap-6 mt-12 divide-x">
+				
+				<span class="text-xs uppercase">{translation.versions}</span>
+				<div class="flex gap-4 px-6">
+				<!-- {pageData?.otherLanguages && pageData.otherLanguages.map((l: { slug: string; }) => <a class="flex items-center justify-center bg-gray-100 rounded-full h-12 w-12 items-center gap-1 outline-2 outline-offset-2 hover:outline-teal-200 hover:outline focus-visible:outline" href={`${Astro.url.origin}/${l.slug}`}><Icon name={getLanguage(l.slug)} /> <span class="sr-only">{getLanguage(l.slug).toUpperCase()}{getLanguage(l.slug) === 'en' && 'English'}</span> </a>)} -->
+				{relatedPages && relatedPages.map((page: CollectionEntry<'pages'>) => <a class="flex items-center justify-center bg-gray-100 rounded-full h-12 w-12 items-center gap-1 outline-2 outline-offset-2 hover:outline-teal-200 hover:outline focus-visible:outline" href={`${Astro.url.origin}/${page.slug}`}><Icon name={getLanguage(page.slug)} /> <span class="sr-only">{page.data.language}</span> </a>)}
+				
+			 	{pageData.file && <a class="bg-gray-100 no-underline flex items-center justify-center h-12 w-12 rounded-full outline-2 outline-offset-2 hover:outline-teal-200 hover:outline focus-visible:outline" href={pageData.file} data-astro-reload><Icon name="pdf" class="w-6 h-6" /><span class="sr-only">{translation.pdfLink}</span></a>}
+				
+				
+				</div>
+			 </div>
+		 </div>
+		
+	 </main>
+		
+		
+		<Footer />
+		
+	</body>
+	
+</html>

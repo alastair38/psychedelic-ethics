@@ -1,0 +1,21 @@
+---
+import { socials } from "@data/siteData";
+import { Icon } from 'astro-icon/components';
+---
+
+<footer class="flex flex-col gap-6 md:flex-row justify-center items-center md:gap-12 p-6 bg-white mt-auto">
+  
+  <ul class="flex items-center gap-6">
+    {
+      socials.map((s) => (
+        <li>
+          <a class="outline-none flex hover:text-teal-500 hover:scale-125 focus-visible:text-teal-500 focus-visible:scale-125 duration-200" rel="noopener noreferrer" href={s.href}>
+            <Icon name={s.icon} class="w-6 h-6" />
+            <span class="sr-only">{s.label}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  
+</footer>
