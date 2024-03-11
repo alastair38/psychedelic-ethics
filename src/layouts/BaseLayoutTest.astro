@@ -52,7 +52,6 @@ function versionText(textObj: any, lang: string) {
 ---
 <!DOCTYPE html>
 <html class="scroll-smooth scroll-pt-32" lang=`${pageTranslation.id}`>
-	
 
 	<head>
 		<meta charset="utf-8" />
@@ -68,7 +67,6 @@ function versionText(textObj: any, lang: string) {
 	</head>
 	
 	<body class="min-h-[101vh] flex flex-col justify-between">
-		
 		
 		<Nav translations={pageTranslation.data} pageLang={pageTranslation.id}/>
 		
@@ -94,16 +92,14 @@ function versionText(textObj: any, lang: string) {
 					<a title={`${versionText(pageTranslation.data.versionText, page.data.translation.id)}`} class="flex items-center justify-center bg-gray-100 rounded-full h-12 w-12 items-center gap-1 outline-2 outline-offset-2 hover:outline-teal-200 hover:outline focus-visible:outline" href={`${Astro.url.origin}/${page.slug}`}><Icon name={page.data.translation.id} /> <span class="sr-only">{versionText(pageTranslation.data.versionText, page.data.translation.id)}</span> </a>
 				})}
 				
-			 	{pageData.file && <a class="bg-gray-100 no-underline flex items-center justify-center h-12 w-12 rounded-full outline-2 outline-offset-2 hover:outline-teal-200 hover:outline focus-visible:outline" href={`/${pageTranslation.id}/${pageData.file}`} data-astro-reload><Icon name="pdf" class="w-6 h-6" /><span class="sr-only">{pageTranslation.data.pdfLink}</span></a>}
-				
+			 	{pageData.file && <a class="bg-gray-100 no-underline flex items-center justify-center h-12 w-12 rounded-full outline-2 outline-offset-2 hover:outline-teal-200 hover:outline focus-visible:outline" href={`/${pageTranslation.id}/${pageData.file}`} data-astro-reload><Icon name="pdf" class="w-6 h-6" /><span class="sr-only">{pageTranslation.data.pdfLink}</span></a>}	
 				
 				</div>
 			 </div>
 		 </div>
 		
-	 </main>
+	 	</main>
 		
-	 
 		<Footer />
 	
 	</body>

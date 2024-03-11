@@ -3,8 +3,8 @@ title: The Hopkins-Oxford Psychedelics Ethics (HOPE) Workshop Consensus Statemen
 description: Here is a description
 language: English
 languageCode: en
-image: ./image.jpeg
-alt: A description of the about
+image: ./social.webp
+alt: The Hub at Oxford for Psychedelic Ethics logo
 file: dummy.pdf
 otherLanguages: ['nl', '', 'es-419', 'fr', 'pt-br', 'de']
 translation: en

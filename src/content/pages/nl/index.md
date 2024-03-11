@@ -3,8 +3,8 @@ title: De Hopkins-Oxford Psychedelics Ethics (HOPE) Workshop Consensusverklaring
 description: Here is a description
 language: Dutch
 languageCode: nl
-image: ./image.jpeg
-alt: A description of the about
+image: ./social.webp
+alt: The Hub at Oxford for Psychedelic Ethics logo
 file: dummy.pdf
 otherLanguages: ['nl', '', 'es-419', 'fr', 'pt-br', 'de']
 translation: nl

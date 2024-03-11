@@ -19,8 +19,8 @@ export const siteData: SiteData = {
   lang: 'en',
   currency: 'GBP',
   image: {
-    src: '/social.jpeg',
-    alt: 'My Astro Blog',
+    src: '/social.webp',
+    alt: 'The Hub at Oxford for Psychedelic Ethics logo',
   },
   defaultLayouts: {
     pages: 'default',
