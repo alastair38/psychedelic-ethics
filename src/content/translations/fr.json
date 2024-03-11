@@ -1,0 +1,66 @@
+{
+  "siteTitle": "HOPE Déclaration",
+  "pdfLink": "Telécharger PDF",
+  "versions": "Versions",
+  "versionText": {
+    "en": "Anglais",
+    "fr": "Francais",
+    "es": "Espagnol",
+    "es-419": "Espagnol (Amérique latine)",
+    "pt-BR": "Portugais (BR)",
+    "nl": "Hollandais",
+    "de": "Allemand"
+  },
+  "en": "English",
+  "langChooser": "Langues",
+  "toc": "Tableau de contents",
+  "navMainAria": "Principal navigation",
+  "navMain": [
+    {
+      "text": "Déclaration",
+      "url": "/fr"
+    },
+    {
+      "text": "Ressources",
+      "url": "/fr/ressources"
+    }
+  ],
+  "navLang": [
+    {
+      "text": "Anglais",
+      "url": "/",
+      "lang": "en"
+    },
+    {
+      "text": "Francais",
+      "url": "/fr",
+      "lang": "fr"
+    },
+    {
+      "text": "Espagnol",
+      "url": "/es",
+      "lang": "es"
+    },
+    {
+      "text": "Espagnol (Amérique latine)",
+      "url": "/es-419",
+      "lang": "es-419"
+    },
+    {
+      "text": "Portugais (BR)",
+      "url": "/pt-br",
+      "lang": "pt-BR"
+    },
+    {
+      "text": "Hollandais",
+      "url": "/nl",
+      "lang": "nl"
+    },
+    {
+      "text": "Allemand",
+      "url": "/de",
+      "lang": "de"
+    }
+  ],
+  "navLangAria": "Disponible langues"
+}

@@ -5,7 +5,13 @@ export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   safelist: ['data-footnote-backref', 'footnotes li p', 'footnotes'],
   theme: {
-    extend: {},
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'lower-roman',
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),

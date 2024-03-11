@@ -1,5 +1,5 @@
 ---
-title: HOPE Declaración
+title: Declaración
 description: Here is a description
 language: Spanish
 languageCode: es
@@ -7,6 +7,7 @@ image: ./image.jpeg
 alt: A description of the about
 file: dummy.pdf
 otherLanguages: ['', 'fr']
+translation: es
 ---
 
 También pensaba Barbarita, oyendo a su novio, que la procesión iba por dentro y que el pobre chico, a pesar de ser tan grandullón, no tenía alma para sacarla fuera. Me querrá se preguntaba la novia.Pronto hubo de sospechar que si Baldomerito no le hablaba de amor explícitamente, era por pura cortedad y por no saber cómo arrancarse pero que estaba enamorado hasta las gachas, reduciéndose a declararlo con delicadezas, complacencias y puntualidades muy expresivas.

@@ -1,0 +1,66 @@
+{
+  "siteTitle": "HOPE Erklärung",
+  "pdfLink": "PDF herunterladen",
+  "versions": "Fassungen",
+  "versionText": {
+    "en": "Englisch",
+    "fr": "Französisch",
+    "es": "Spanisch",
+    "es-419": "Spanisch (Lateinamerika)",
+    "pt-BR": "Portugiesisch (BR)",
+    "nl": "Niederländisch",
+    "de": "Deutsch"
+  },
+  "en": "English",
+  "langChooser": "Sprachen",
+  "toc": "Inhaltsübersicht",
+  "navMainAria": "Hauptnavigation",
+  "navMain": [
+    {
+      "text": "Erklärung",
+      "url": "/de"
+    },
+    {
+      "text": "Ressourcen",
+      "url": "/de/ressourcen"
+    }
+  ],
+  "navLang": [
+    {
+      "text": "Englisch",
+      "url": "/",
+      "lang": "en"
+    },
+    {
+      "text": "Französisch",
+      "url": "/fr",
+      "lang": "fr"
+    },
+    {
+      "text": "Spanisch",
+      "url": "/es",
+      "lang": "es"
+    },
+    {
+      "text": "Spanisch (Lateinamerika)",
+      "url": "/es-419",
+      "lang": "es-419"
+    },
+    {
+      "text": "Portugiesisch (BR)",
+      "url": "/pt-br",
+      "lang": "pt-BR"
+    },
+    {
+      "text": "Niederländisch",
+      "url": "/nl",
+      "lang": "nl"
+    },
+    {
+      "text": "Deutsch",
+      "url": "/de",
+      "lang": "de"
+    }
+  ],
+  "navLangAria": "Verfügbare Sprachen"
+}

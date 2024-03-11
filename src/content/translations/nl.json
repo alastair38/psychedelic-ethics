@@ -1,0 +1,66 @@
+{
+  "siteTitle": "HOPE Verklaring",
+  "pdfLink": "PDF downloaden",
+  "versions": "Versies",
+  "versionText": {
+    "en": "Engels",
+    "fr": "Frans",
+    "es": "Spaans",
+    "es-419": "Spaans (Latijns-Amerika)",
+    "pt-BR": "Portugees (BR)",
+    "nl": "Nederlands",
+    "de": "Duits"
+  },
+  "en": "English",
+  "langChooser": "Talen",
+  "toc": "Inhoudsopgave",
+  "navMainAria": "Hoofdnavigatie",
+  "navMain": [
+    {
+      "text": "Verklaring",
+      "url": "/nl"
+    },
+    {
+      "text": "Middelen",
+      "url": "/nl/middelen"
+    }
+  ],
+  "navLang": [
+    {
+      "text": "Engels",
+      "url": "/",
+      "lang": "en"
+    },
+    {
+      "text": "Frans",
+      "url": "/fr",
+      "lang": "fr"
+    },
+    {
+      "text": "Spaans",
+      "url": "/es",
+      "lang": "es"
+    },
+    {
+      "text": "Spaans (Latijns-Amerika)",
+      "url": "/es-419",
+      "lang": "es-419"
+    },
+    {
+      "text": "Portugees (BR)",
+      "url": "/pt-br",
+      "lang": "pt-BR"
+    },
+    {
+      "text": "Nederlands",
+      "url": "/nl",
+      "lang": "nl"
+    },
+    {
+      "text": "Duits",
+      "url": "/de",
+      "lang": "de"
+    }
+  ],
+  "navLangAria": "Beschikbare talen"
+}

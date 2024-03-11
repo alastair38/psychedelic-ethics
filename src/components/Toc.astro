@@ -23,9 +23,9 @@ function buildToc(headings: any[]) {
 const tableOfContents = buildToc(headings);
 ---
 
-<details open class="md:fixed text-sm px-2 py-2 md:px-6 md:py-4 bg-white border md:rounded-md md:left-4 md:right-auto md:top-32 cursor-pointer group max-h-24 open:max-h-80 transition-all duration-200">
-  <summary class="flex gap-3 rounded-md group-open:ring-transparent ring-offset-2 focus-visible:ring focus-visible:ring-2 focus-visible:ring-pink-300 items-center px-3 py-2 text-sm font-black"><Icon class="group-open:rotate-90 transition-all duration-300" name="chevron" />{translations.toc}</summary>
-<ul >
+<details class="fixed text-sm w-auto md:w-80 max-w-80 bg-white border rounded-md right-auto left-4 bottom-6 cursor-pointer group max-h-24 open:max-h-96 transition-all overflow-y-auto">
+  <summary class="flex bg-white sticky top-0 p-2 gap-2 rounded-t-md group-open:border-b group-open:ring-transparent ring-offset-2 focus-visible:ring focus-visible:ring-2 focus-visible:ring-pink-300 items-center text-sm fontblack"><Icon class="w-8 h-8" name="toc" /><span>{translations.toc}</span></summary>
+<ul class="px-2 md:px-10 w-full" >
   {headings && tableOfContents.map(heading => <li>
     
     <a href={`#${heading.slug}`}>{heading.text}</a>
@@ -43,3 +43,17 @@ const tableOfContents = buildToc(headings);
     </li>)}
  </ul>
 </details>
+
+<style>
+  details::-webkit-scrollbar {
+  @apply w-2;
+}
+ 
+details::-webkit-scrollbar-thumb {
+  @apply bg-emerald-400 rounded-3xl;
+}
+
+details::-webkit-scrollbar-track {
+  @apply bg-gray-100 rounded-3xl;
+}
+</style>

@@ -1,17 +1,6 @@
 ---
 import { siteData } from "@data/siteData";
-const { pageData, pageTitle, socialImage, type, lang, url = Astro.url  } = Astro.props.frontmatter || Astro.props;
-
-function getLanguage(langSlug: string) {
-  let defaultLang = '';
-  const langArray = langSlug.split('/');
-  if(langArray[0].length === 0) {
-    return defaultLang = 'en';
-  } else {
-    return defaultLang = langArray[0];
-  }
-}
-
+const { pageData, pageTitle, socialImage, hrefLang, lang, url = Astro.url  } = Astro.props.frontmatter || Astro.props;
 ---
 
 <title>{siteData.name} {pageTitle && ' - ' + pageTitle || pageData?.title && ' - ' + pageData?.title}</title>
@@ -19,24 +8,17 @@ function getLanguage(langSlug: string) {
 <!-- <link rel="sitemap" href="/sitemap-index.xml" /> uncomment this after checking build creates sitemap -->
 <link rel="canonical" href={url} />
 
-<link rel="alternate" hreflang={`${lang}`} href={url} />
-
-{pageData?.otherLanguages?.map((language: { slug: string; }) => 
 
 
-    <link rel="alternate" hreflang={`${getLanguage(language.slug)}`} href={`${Astro.url.origin}/${language.slug}`} />
-  
-
-
-
-
+{hrefLang.map( (l: { data: { translation: { id: string | null | undefined; }; }; slug: any; }) => 
+    <link rel="alternate" hreflang={l.data.translation.id} href={`${Astro.url.origin}/${l.slug}`} />
 )}
 
 <!-- Open Graph -->
 <meta property="og:site_name" content=`${siteData.name}` />
 <meta property="og:title" content={pageData?.title || pageTitle} />
 <meta property="og:description" content={pageData?.description || siteData.description} />
-<meta property="og:type" content={type || "website"} />
+<meta property="og:type" content="website" />
 <meta property="og:url" content={url} />
 <meta property="og:image" content={socialImage?.src || siteData.image.src} />
 <meta property="og:image:url" content={socialImage?.src || siteData.image.src} />

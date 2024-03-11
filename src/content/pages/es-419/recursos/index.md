@@ -1,40 +1,57 @@
 ---
-title: Recursos
+title: Lecturas recomendadas
 description: Here is a description
 language: Spanish
 languageCode: es-419
 image: ./image.jpeg
 alt: A description of the about
 file: dummy.pdf
-otherLanguages: ['fr/ressources', 'resources']
+otherLanguages:
+  [
+    'nl/middelen',
+    'fr/ressources',
+    'resources',
+    'es-419/recursos',
+    'de/ressourcen',
+    'pt-br/recursos',
+  ]
+translation: es-419
 ---
 
-Hasta que D.Baldomero realizó el traspaso, no se supo en aquella casa lo que era un metro, ni se quitaron a la vara de Burgos sus fueros seculares.Hasta pocos años antes del traspaso, no usó Santa Cruz los sobres para cartas, y estas se cerraban sobre sí mismas.
+Appelbaum, P. S. (2022). **Psychedelic research and the real world**. Nature, 609(7929), S95-S95.
 
-esposos salían a paseo juntos todas las tardes.Jamás se ha visto a D.Baldomero II en un teatro sin tener al lado a su mujer.Cada día, cada mes y cada año, eran más tórtolos, y se querían y estimaban más.Muchos años después de casados, parecía que estaban en la luna de miel.
+Breeksema, J. J., Kuin, B. W., Kamphuis, J., van den Brink, W., Vermetten, E., & Schoevers, R. A. (2022). **Adverse events in clinical treatments with serotonergic psychedelics and MDMA: A mixed-methods systematic review**. Journal of Psychopharmacology, 36(10), 1100-1117.
 
-Mientras estudió la segunda enseñanza en el colegio de Masarnau, donde estaba a media pensión, su mamá le repasaba las lecciones todas las noches, se las metía en el cerebro a puñados y a empujones, como se mete la lana en un cojín.Ved por dónde aquella señora se convirtió en sibila, intérprete de toda la ciencia humana, pues le descifraba al niño los puntos oscuros que en los libros había, y aclaraba todas sus dudas, allá como Dios le daba a entender.
+Celidwen, Y., Redvers, N., Githaiga, C., Calambás, J., Añaños, K., Chindoy, M. E., ... & Sacbajá, A. (2023). **Ethical principles of traditional indigenous medicine to guide western psychedelic research and practice**. The Lancet Regional Health–Americas, 18.
 
-tenía en más estima, y por esto no lo sacaba sino en ciertos días, era su colección de etiquetas, pedacitos de papel verde, recortados de los paquetes inservibles, y que tenían el famoso escudo inglés, con la jarretiera, el leopardo y el unicornio.
+Cheung, K., Patch, K., Earp, B. D., & Yaden, D. B. (2023). **Psychedelics, meaningfulness, and the “proper scope” of medicine: continuing the conversation**. Cambridge Quarterly of Healthcare Ethics, 1-7.
 
-quiera, al venturoso hijo de D.Baldomero Santa Cruz y de doña Bárbara Arnaiz le llamaban Juanito, y Juanito le dicen y le dirán quizá hasta que las canas de él y la muerte de los que le conocieron niño vayan alterando poco a poco la campechana costumbre.
+Devenot, N., Tumilty, E., Buisson, M., McNamee, S., Nickles, D., & Ross, L. K. (2022). **A Precautionary Approach to Touch in Psychedelic-Assisted Therapy**. Bill of Health.
 
-Cordero, sin embargo, no se desanimaba.Su marido empezaba a atontarse ella a ver claro.Vio que las costumbres de Madrid se transformaban rápidamente, que esta orgullosa Corte iba a pasar en poco tiempo de la condición de aldeota indecente a la de capital civilizada.
+Earp and Savulescu (2021). **Love Drugs: The Chemical Future of Relationships**. Stanford, CA: Redwood Press.
 
-estoy tranquilo, y no veo con malos ojos que se despabile, que conozca el mundo, que adquiera soltura de modales.... No, si lo que menos falta hace a mi hijo es adquirir soltura, porque la tiene desde que era una criatura...Si no es eso.No se trata aquí de modales, sino de que me le coman esas bribonas.
+Evans, J., Robinson, O. C., Argyri, E. K., Suseelan, S., Murphy-Beiner, A., McAlpine, R., ... & Prideaux, E. (2023). **Extended difficulties following the use of psychedelic drugs: A mixed methods study**. PLOS ONE, 18(10), e0293349.
 
-sociedad española empezaba a presumir de seria es decir, a vestirse lúgubremente, y el alegre imperio de los colorines se derrumbaba de un modo indudable.Como se habían ido las capas rojas, se fueron los pañuelos de Manila.La aristocracia los cedía con desdén a la clase media, y esta, que también quería ser aristócrata, entregábalos al pueblo, último y fiel adepto de los matices vivos.
+Fogg, C., Michaels, T. I., de la Salle, S., Jahn, Z. W., & Williams, M. T. (2021). **Ethnoracial health disparities and the ethnopsychopharmacology of psychedelic-assisted psychotherapies**. Experimental and Clinical Psychopharmacology, 29(5), 539.
 
-Bonifacio Arnaiz y de doña Asunción Trujillo.Cuando tuvo edad para ello, fue a la escuela de una tal doña Calixta, sita en la calle Imperial, en la misma casa donde estaba el Fiel Contraste.Las niñas con quienes la de Arnaiz hacía mejores migas, eran dos de su misma edad y vecinas de aquellos barrios, la una de la familia de Moreno, del dueño de la droguería de la calle de Carretas, la otra de Muñoz, el comerciante de hierros de la calle de Tintoreros.
+Jacobs, E., Murphy-Beiner, A., Rouiller, I., Nutt, D., & Spriggs, M. J. (2024). **When the Trial Ends: The Case for Post-Trial Provisions in Clinical Psychedelic Research**. Neuroethics, 17(1), 3.
 
-Pedro Mata opinaba del propio modo, aplicando a la sociedad y a la política el sistema de la medicina expectante.La naturaleza se cura sola no hay más que dejarla.Las fuerzas reparatrices lo hacen todo, ayudadas del aire.El hombre se educa sólo en virtud de las suscepciones constantes que determina en su espíritu la conciencia, ayudada del ambiente social.
+Jacobs, E., Yaden, D. B., & Earp, B. D. (2023). **Toward a Broader Psychedelic Bioethics**. AJOB neuroscience, 14(2), 126-129.
 
-Creció Bárbara en una atmósfera saturada de olor de sándalo, y las fragancias orientales, juntamente con los vivos colores de la pañolería chinesca, dieron acento poderoso a las impresiones de su niñez.Como se recuerda a las personas más queridas de la familia, así vivieron y viven siempre con dulce memoria en la mente de Barbarita los dos maniquís de tamaño natural vestidos de mandarín que había en la tienda y en los cuales sus ojos aprendieron a ver.
+McGuire et al. (under review). **Developing an Ethics and Policy Framework for Psychedelic Clinical Care**
 
-cayendo el chal de los hombros de las mujeres hermosas, porque la sociedad se empeñaba en parecer grave, y para ser grave nada mejor que envolverse en tintas de tristeza.Estamos bajo la influencia del Norte de Europa, y ese maldito Norte nos impone los grises que toma de su ahumado cielo.
+McGuire, A. L., Lynch, H. F., Grossman, L. A., & Cohen, I. G. (2023). **Pressing regulatory challenges for psychedelic medicine**. Science, 380(6643), 347-350.
 
-consistía que habiendo sido él educado tan rígidamente por D.Baldomero I, era todo blanduras con su hijo Efectos de la evolución educativa, paralela de la evolución política Santa Cruz tenía muy presentes las ferocidades disciplinarias de su padre, los castigos que le imponía, y las privaciones que le había hecho sufrir.
+McMillan, R. M. (2022). **Psychedelic injustice: should bioethics tune in to the voices of psychedelic-using communities?**. Medical Humanities, 48(3), 269-272.
 
-pensar que los árboles eran el té nada menos, estas hojuelas retorcidas, cuyo zumo se toma para el dolor de barriga... Ocuparon más adelante el primer lugar en el tierno corazón de la hija de D.Bonifacio Arnaiz y en sus sueños inocentes, otras preciosidades que la mamá solía mostrarle de vez en cuando, previa amonestación de no tocarlos objetos labrados en marfil y que debían de ser los juguetes con que los ángeles se divertían en el Cielo.
+Neitzke-Spruill, L. (2020). **Race as a component of set and setting: How experiences of race can influence psychedelic experiences**. Journal of Psychedelic Studies, 4(1), 51-60.
 
-tenían canas las cabezas de uno y otro, y D.Baldomero decía a todo el que quisiera oírle que amaba a su mujer como el primer día.Juntos siempre en el paseo, juntos en el teatro, pues a ninguno de los dos le gusta la función si el otro no la ve también.
+Noorani, T. (2021). **Containment matters: Set and setting in contemporary psychedelic psychiatry**. Philosophy, Psychiatry, & Psychology, 28(3), 201-216.
+
+Ortiz, C. E., Dourron, H. M., Sweat, N. W., Garcia-Romeu, A., MacCarthy, S., Anderson, B. T., & Hendricks, P. S. (2022). **Special considerations for evaluating psilocybin-facilitated psychotherapy in vulnerable populations**. Neuropharmacology, 214, 109127.;
+
+Thrul, J., & Garcia-Romeu, A. (2021). **Whitewashing psychedelics: racial equity in the emerging field of psychedelic-assisted mental health research and treatment**. Drugs: Education, Prevention and Policy, 28(3), 211-214.
+
+Yaden, D. B., Potash, J. B., & Griffiths, R. R. (2022). **Preparing for the bursting of the psychedelic hype bubble**. JAMA psychiatry, 79(10), 943-944.
+
+Yaden, D. B., Earp, B. D., & Griffiths, R. R. (2022). **Ethical issues regarding nonsubjective psychedelics as standard of care**. Cambridge Quarterly of Healthcare Ethics, 31(4), 464-471.

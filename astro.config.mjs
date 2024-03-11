@@ -7,7 +7,7 @@ import icon from 'astro-icon';
 export default defineConfig({
   i18n: {
     defaultLocale: 'en',
-    locales: ['es', 'en', 'fr', 'es-419', 'nl', 'de', 'pt-br'],
+    locales: ['es', 'en', 'fr', 'es-419', 'nl', 'de', 'pt-BR'],
     routing: {
       prefixDefaultLocale: false,
     },
