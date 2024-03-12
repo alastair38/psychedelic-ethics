@@ -9,8 +9,6 @@ otherLanguages: ['nl', '', 'es-419', 'fr', 'pt-br', 'de']
 translation: fr
 ---
 
-## Introduction
-
 Le premier atelier Hopkins-Oxford Psychedelic Ethics (HOPE) s’est réuni pour discuter des questions éthiques liées aux psychédéliques en août 2023 à l’Université d’Oxford.
 
 Les organisateurs (<abbr title="Brian D Earp">BDE</abbr>, <abbr title="David B Yaden">DBY</abbr>, <abbr title="Edward Jacobs">EJ</abbr>) ont voulu refléter la diversité de parcours et de perspectives des participants. Les discours principaux ont été donnés par un chercheur autochtone et un psychiatre, et les autres participants comprenaient des avocats et des éthiciens, des scientifiques qui travaillent sur les psychédéliques, des anthropologues, des philosophes, des entrepreneurs et des acteurs de la réduction des méfaits.
@@ -20,6 +18,8 @@ L’atelier a été organisé en reconnaissance du fait que le domaine des psych
 Malgré la valeur de ces discussions, le groupe reconnaît que relativement peu de voix ont pu être incluses par rapport à l’ampleur de ceux qui travaillent sur les psychédéliques et de ceux qui seront touchés par les psychédéliques dans les années à venir. Les participants ont décidé que l’amélioration des résultats nous obligerait à faire des efforts particuliers pour accroître davantage la diversité des perspectives et des antécédents des participants lors d’événements futurs, y compris les patients et les utilisateurs (non seulement ceux qui ont bénéficié des psychédéliques, mais aussi ceux qui en ont été lésés), les entreprises biopharmaceutiques, les communautés autochtones qui ont des antécédents établis d’utilisation de psychédéliques, et les législateurs et les décideurs.
 
 Les participants à l’atelier ont discuté d’une ébauche du document actuel. Ce document vise à résumer notre compréhension commune de certaines des considérations éthiques centrales liées aux psychédéliques et à fournir quelques recommandations sur le terrain. Bien sûr, sur certains points, il n’y a pas encore de consensus, et il se peut qu’il n’y en ait jamais. En outre, il y a des questions sur lesquelles le groupe était agnostique, des questions qui divisaient la salle et des questions dont nous avons convenu qu’elles nécessitaient plus de données probantes et de discussions entre l’ensemble des parties prenantes. Néanmoins, les signataires approuvent les sentiments décrits ci-dessous et estiment qu’ils méritent d’être transmis au public général. Plus largement, nous espérons que cette déclaration est une contribution utile : à ceux qui travaillent avec, recherchent ou utilisent des psychédéliques, ainsi qu’à toute personne intéressée par le sujet.
+
+## Introduction
 
 La poussée vers le développement de substances psychédéliques en médicaments autorisés au cours des dernières années a conduit à une reconnaissance croissante de l’importance de proposer de façon prudente des meilleures pratiques de recherche, cliniques et politiques pour réglementer leur utilisation clinique. Plus précisément, des meilleures pratiques devraient être développées et mises en œuvre pour minimiser les risques pour les patients et promouvoir les avantages. Il y a également des questions de justice sociale à aborder, telles que la promotion d’un accès équitable et le partage approprié des avantages avec certaines communautés autochtones qui ont une longue histoire de pratique avec les plantes psychédéliques.
 

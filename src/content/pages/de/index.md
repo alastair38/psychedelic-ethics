@@ -9,8 +9,6 @@ otherLanguages: ['nl', '', 'es-419', 'fr', 'pt-br', 'de']
 translation: de
 ---
 
-## Einführung
-
 Der erste Workshop für Hopkins-Oxford Psychedelic Ethics (HOPE) fand im August 2023 an der Universität Oxford statt, um ethische Fragen in Bezug auf Psychedelika zu diskutieren.
 
 Die Organisatoren (<abbr title="Brian D Earp">BDE</abbr>, <abbr title="David B Yaden">DBY</abbr>, <abbr title="Edward Jacobs">EJ</abbr>) strebten eine Vielfalt von Hintergründen und Perspektiven der Teilnehmer an. Die Keynotes wurden von einem indigenen Gelehrten und einem Psychiater gehalten. Zu den weiteren Teilnehmern gehörten Anwälte und Ethiker, Psychedelika-Wissenschaftler, Anthropologen, Philosophen, Unternehmer sowie Akteure der Schadensminimierung.
@@ -20,6 +18,8 @@ Der Workshop wurde basierend auf der Erkenntnis organisiert, dass sich das Gebie
 Trotz des Nutzens dieser Diskussionen ist sich die Gruppe bewusst, dass im Vergleich zu den Menschen, die über Psychedelika nachdenken, und denen, die in den kommenden Jahren von Psychedelika betroffen sein werden, relativ wenige Meinungen einbezogen werden konnten. Die Teilnehmer beschlossen, dass die Verbesserung der Ergebnisse besondere Anstrengungen erfordern wird, um die Vielfalt der Perspektiven und Hintergründe der Teilnehmer bei zukünftigen Veranstaltungen weiter zu erhöhen, einschließlich Patienten und Anwender (nicht nur diejenigen, die von Psychedelika profitiert haben, sondern auch diejenigen, die geschädigt wurden), biopharmazeutischer Unternehmen, indigener Gemeinschaften mit einer etablierten Geschichte des psychedelischen Gebrauchs sowie Gesetzgeber und politische Entscheidungsträger.
 
 Die Workshop-Teilnehmer diskutierten einen Entwurf des aktuellen Dokuments. Dieses Dokument soll unser gemeinsames Verständnis einiger der zentralen ethischen Überlegungen in Bezug auf Psychedelika und einige Empfehlungen für das Feld zusammenfassen. In einigen Punkten gibt es natürlich noch keinen Konsens und wird es vielleicht auch nie geben. Darüber hinaus gibt es Themen, bei denen die Gruppe skeptisch war, Themen, bei denen die Meinungen auseinandergingen, und Themen, bei denen wir uns einig waren, dass mehr Beweise und Diskussionen unter der gesamten Breite der Interessengruppen erforderlich waren. Dennoch unterstützen die Unterzeichner die folgenden Meinungen und glauben, dass sie es wert sind, dem Fachgebiet ausführlich vermittelt zu werden. Im weiteren Sinne hoffen wir, dass diese Stellungnahme ein nützlicher Beitrag für die folgenden Personen ist: für diejenigen, die mit Psychedelika arbeiten, forschen oder sie verwenden sowie für alle, die sich für dieses Gebiet interessieren.
+
+## Einführung
 
 Der Vorstoß in Richtung der Entwicklung von psychedelischen Medikamenten zu zugelassenen Medikamenten in den letzten Jahren hat zu einer wachsenden Anerkennung der Bedeutung geführt, die besten Vorgehensweisen von Forschung, Kliniken und Richtlinien sorgfältig für die Regulierung ihrer klinischen Verwendung festzulegen. Insbesondere sollten bewährte Verfahren entwickelt und umgesetzt werden, um Risiken für Patientinnen und Patienten zu minimieren und den Nutzen zu fördern. Es gibt auch Fragen der sozialen Gerechtigkeit, die in Angriff genommen werden müssen, wie die Förderung eines gerechten Zugangs und die Bereitstellung eines angemessenen Vorteilsausgleichs für bestimmte indigene Gemeinschaften mit einer langen Geschichte der Praxis mit psychedelischen Pflanzen.
 

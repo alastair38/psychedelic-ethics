@@ -9,8 +9,6 @@ otherLanguages: ['nl', '', 'es-419', 'fr', 'pt-br', 'de']
 translation: es-419
 ---
 
-## Introducción
-
 En agosto de 2023, se realizó en la Universidad de Oxford el primer taller de Ética Psicodélica Hopkins-Oxford (HOPE) con el fin de discutir cuestiones éticas relacionadas con las sustancias psicodélicas.
 
 Los organizadores (<abbr title="Brian D Earp">BDE</abbr>, <abbr title="David B Yaden">DBY</abbr>, <abbr title="Edward Jacobs">EJ</abbr>) buscaron que los participantes tuvieran orígenes y perspectivas diversos. Las principales ponencias estuvieron a cargo de un investigador indígena y un psiquiatra; entre los asistentes había abogados y especialistas en ética, científicos especializados en psicodelia, antropólogos, filósofos, empresarios y agentes de reducción de daños.
@@ -20,6 +18,8 @@ El taller se organizó a partir del reconocimiento de que el campo de la psicode
 A pesar del valor de estos debates, el grupo sigue siendo consciente de que se pudieron incluir muy pocas voces en comparación con el alcance de los que piensan en los psicodélicos y de los que se verán afectados por estos en los próximos años. Los participantes decidieron que para mejorar los resultados tendremos que hacer un esfuerzo particular para aumentar la diversidad de perspectivas y procedencias de los participantes en futuros eventos, incluidos pacientes y usuarios (no solo aquellos que se benefician de los psicodélicos, sino también aquellos que se ven perjudicados), empresas biofarmacéuticas, comunidades indígenas con una historia consolidada de uso de psicodélicos, y legisladores y autoridades encargadas de la elaboración de políticas.
 
 Los participantes del taller discutieron un borrador del documento actual. Este documento pretende resumir nuestro entendimiento compartido de algunas de las consideraciones éticas centrales relacionadas con las sustancias psicodélicas y algunas recomendaciones para el campo. Por supuesto, en algunos puntos, aún no _hay_ consenso y es posible que nunca lo haya. Además, hay aspectos sobre los que el grupo se mostró agnóstico, otros que dividieron a la sala y otros que acordamos que requerían más pruebas y más debate entre todas las partes interesadas. No obstante, los firmantes respaldan las opiniones que se expresan a continuación y consideran que vale la pena transmitirlas al sector en general. En términos más generales, esperamos que esta declaración sea un aporte útil para aquellos que investigan, usan o trabajan con sustancias psicodélicas, así como para cualquier persona interesada en este campo.
+
+## Introducción
 
 En los últimos años, el impulso para conseguir que los fármacos psicodélicos se conviertan en medicamentos autorizados ha propiciado que se reconozca cada vez más la importancia de establecer minuciosamente las mejores prácticas de investigación, clínicas y políticas para regular su uso clínico. En particular, deben desarrollarse y aplicarse las mejores prácticas para minimizar los riesgos para los pacientes y promover los beneficios. También hay aspectos de justicia social que abordar, como la promoción a un acceso equitativo y el reparto adecuado de los beneficios con determinadas comunidades indígenas con una larga historia de prácticas con plantas psicodélicas.
 

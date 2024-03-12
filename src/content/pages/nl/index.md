@@ -9,8 +9,6 @@ otherLanguages: ['nl', '', 'es-419', 'fr', 'pt-br', 'de']
 translation: nl
 ---
 
-## Inleiding
-
 De eerste Hopkins-Oxford Psychedelic Ethics (HOPE) Workshop bijeengeroepen om ethische kwesties met betrekking tot psychedelica te bespreken in augustus 2023 aan de Universiteit van Oxford.
 
 De organisatoren (<abbr title="Brian D Earp">BDE</abbr>, <abbr title="David B Yaden">DBY</abbr>, <abbr title="Edward Jacobs">EJ</abbr>) streefden naar een diversiteit aan achtergronden en perspectieven van de deelnemers. De keynotes werden gegeven door een inheemse geleerde en een psychiater; andere aanwezigen waren advocaten en ethici, psychedelische wetenschappers, antropologen, filosofen, ondernemers en schadebeperkende actoren.
@@ -20,6 +18,8 @@ De workshop werd georganiseerd vanuit het besef dat het veld van psychedelica zi
 Ondanks de waarde van deze discussies, blijft de groep zich ervan bewust dat er relatief weinig stemmen konden worden opgenomen in vergelijking met het bereik van degenen die nadenken over psychedelica, en degenen die de komende jaren beïnvloed zullen worden door psychedelica. De deelnemers besloten dat het verbeteren van de resultaten speciale inspanningen vereist om de diversiteit van de perspectieven en achtergronden van deelnemers aan toekomstige evenementen verder te vergroten, waaronder patiënten en gebruikers (niet alleen degenen die baat hebben gehad bij psychedelica, maar ook degenen die er schade van hebben ondervonden), biofarmaceutische bedrijven, inheemse gemeenschappen met een lange geschiedenis van psychedelisch gebruik, en wetgevers en beleidsmakers.
 
 Deelnemers aan de workshop bespraken een concept van het huidige document. Dit document is bedoeld om ons gedeelde begrip van enkele van de centrale ethische overwegingen met betrekking tot psychedelica en een paar aanbevelingen voor het veld samen te vatten. Natuurlijk _is_ er op sommige punten nog geen consensus, en die zal er misschien nooit zijn. Verder zijn er zaken waarover de groep agnostisch was, zaken waarover de groep verdeeld was en zaken waarover we het eens waren dat er meer bewijs en meer discussie nodig was tussen alle belanghebbenden. Niettemin onderschrijven de ondertekenaars de onderstaande gevoelens en geloven ze dat ze de moeite waard zijn om over te brengen naar het veld in het algemeen. Meer in het algemeen hopen we dat deze verklaring een nuttige bijdrage is: voor degenen die werken met, onderzoek doen naar of psychedelica gebruiken, evenals iedereen die geïnteresseerd is in het veld.
+
+## Inleiding
 
 De trend van de afgelopen jaren om psychedelische drugs te ontwikkelen tot goedgekeurde geneesmiddelen heeft geleid tot een groeiende erkenning van het belang van het zorgvuldig vastleggen van de beste onderzoeks-, klinische en beleidspraktijken voor het reguleren van hun klinische gebruik. Er moeten met name best practices worden ontwikkeld en geïmplementeerd om de risico's voor patiënten te minimaliseren en de voordelen te bevorderen. Er zijn ook problemen op het gebied van sociale rechtvaardigheid die aangepakt moeten worden, zoals het bevorderen van eerlijke toegang en het delen van voordelen met bepaalde inheemse gemeenschappen die al lange tijd werken met psychedelische planten.
 

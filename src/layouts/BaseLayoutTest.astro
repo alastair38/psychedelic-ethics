@@ -103,7 +103,7 @@ if(path === '/') {
 					
 				})}
 				
-			 	{pageData.file && <a class="bg-gray-100 no-underline flex items-center justify-center h-12 w-12 rounded-full outline-2 outline-offset-2 hover:outline-teal-200 hover:outline focus-visible:outline" href={`/${pageTranslation.id}/${pageData.file}`} data-astro-reload><Icon name="pdf" class="w-6 h-6" /><span class="sr-only">{pageTranslation.data.pdfLink}</span></a>}	
+			 	{pageData.file && <a title={pageTranslation.data.pdfLink} class="bg-gray-100 no-underline flex items-center justify-center h-12 w-12 rounded-full outline-2 outline-offset-2 hover:outline-teal-200 hover:outline focus-visible:outline" href={`/${pageTranslation.id}/${pageData.file}`} data-astro-reload><Icon name="pdf" class="w-6 h-6" /><span class="sr-only">{pageTranslation.data.pdfLink}</span></a>}	
 				
 				
 				
