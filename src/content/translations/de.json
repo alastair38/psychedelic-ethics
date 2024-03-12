@@ -18,11 +18,11 @@
   "navMain": [
     {
       "text": "Erklärung",
-      "url": "/de"
+      "url": "/de/"
     },
     {
       "text": "Ressourcen",
-      "url": "/de/ressourcen"
+      "url": "/de/ressourcen/"
     }
   ],
   "navLang": [
@@ -33,32 +33,32 @@
     },
     {
       "text": "Französisch",
-      "url": "/fr",
+      "url": "/fr/",
       "lang": "fr"
     },
     {
       "text": "Spanisch",
-      "url": "/es",
+      "url": "/es/",
       "lang": "es"
     },
     {
       "text": "Spanisch (Lateinamerika)",
-      "url": "/es-419",
+      "url": "/es-419/",
       "lang": "es-419"
     },
     {
       "text": "Portugiesisch (BR)",
-      "url": "/pt-br",
+      "url": "/pt-br/",
       "lang": "pt-BR"
     },
     {
       "text": "Niederländisch",
-      "url": "/nl",
+      "url": "/nl/",
       "lang": "nl"
     },
     {
       "text": "Deutsch",
-      "url": "/de",
+      "url": "/de/",
       "lang": "de"
     }
   ],

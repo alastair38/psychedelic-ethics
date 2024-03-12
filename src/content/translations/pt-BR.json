@@ -18,11 +18,11 @@
   "navMain": [
     {
       "text": "Declaração",
-      "url": "/pt-br"
+      "url": "/pt-br/"
     },
     {
       "text": "Recursos",
-      "url": "/pt-br/recursos"
+      "url": "/pt-br/recursos/"
     }
   ],
   "navLang": [
@@ -33,32 +33,32 @@
     },
     {
       "text": "Francês",
-      "url": "/fr",
+      "url": "/fr/",
       "lang": "fr"
     },
     {
       "text": "Espanhol",
-      "url": "/es",
+      "url": "/es/",
       "lang": "es"
     },
     {
       "text": "Espanhol (América Latina)",
-      "url": "/es-419",
+      "url": "/es-419/",
       "lang": "es-419"
     },
     {
       "text": "Português (BR)",
-      "url": "/pt-br",
+      "url": "/pt-br/",
       "lang": "pt-BR"
     },
     {
       "text": "Holandês",
-      "url": "/nl",
+      "url": "/nl/",
       "lang": "nl"
     },
     {
       "text": "Alemão",
-      "url": "/de",
+      "url": "/de/",
       "lang": "de"
     }
   ],

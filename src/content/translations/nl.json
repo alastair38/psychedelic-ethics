@@ -18,11 +18,11 @@
   "navMain": [
     {
       "text": "Verklaring",
-      "url": "/nl"
+      "url": "/nl/"
     },
     {
       "text": "Middelen",
-      "url": "/nl/middelen"
+      "url": "/nl/middelen/"
     }
   ],
   "navLang": [
@@ -33,32 +33,32 @@
     },
     {
       "text": "Frans",
-      "url": "/fr",
+      "url": "/fr/",
       "lang": "fr"
     },
     {
       "text": "Spaans",
-      "url": "/es",
+      "url": "/es/",
       "lang": "es"
     },
     {
       "text": "Spaans (Latijns-Amerika)",
-      "url": "/es-419",
+      "url": "/es-419/",
       "lang": "es-419"
     },
     {
       "text": "Portugees (BR)",
-      "url": "/pt-br",
+      "url": "/pt-br/",
       "lang": "pt-BR"
     },
     {
       "text": "Nederlands",
-      "url": "/nl",
+      "url": "/nl/",
       "lang": "nl"
     },
     {
       "text": "Duits",
-      "url": "/de",
+      "url": "/de/",
       "lang": "de"
     }
   ],

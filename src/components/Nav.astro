@@ -12,7 +12,7 @@ const { translations, pageLang  } = Astro.props;
 <header class="p-2 md:p-4 bg-slate-900 flex relative sticky -top-[4.5rem] md:-top-[6.5rem]">
   
   <nav aria-label={translations.navMainAria} class="max-w-screen-xl flex flex-col md:gap-4 mx-auto">
-    <a href={pageLang !== 'en' ? `/${pageLang.toLowerCase()}` : `/`} title={translations.siteTitle} class="group flex justify-center outline-none">
+    <a href={pageLang !== 'en' ? `/${pageLang.toLowerCase()}/` : `/`} title={translations.siteTitle} class="group flex justify-center outline-none">
       <Icon aria-hidden="true" name="logo" class="w-20 h-20 md:w-36 md:h-full text-white outline-2 outline-offset-4 outline-teal-400 group-focus-visible:outline" />
       <span class="sr-only">{translations.siteTitle}</span>
     </a>

@@ -22,7 +22,7 @@
     },
     {
       "text": "Resources",
-      "url": "/resources"
+      "url": "/resources/"
     }
   ],
   "navLang": [
@@ -33,32 +33,32 @@
     },
     {
       "text": "French",
-      "url": "/fr",
+      "url": "/fr/",
       "lang": "fr"
     },
     {
       "text": "Spanish",
-      "url": "/es",
+      "url": "/es/",
       "lang": "es"
     },
     {
       "text": "Spanish (Latin America)",
-      "url": "/es-419",
+      "url": "/es-419/",
       "lang": "es-419"
     },
     {
       "text": "Portuguese (BR)",
-      "url": "/pt-br",
+      "url": "/pt-br/",
       "lang": "pt-BR"
     },
     {
       "text": "Dutch",
-      "url": "/nl",
+      "url": "/nl/",
       "lang": "nl"
     },
     {
       "text": "German",
-      "url": "/de",
+      "url": "/de/",
       "lang": "de"
     }
   ],

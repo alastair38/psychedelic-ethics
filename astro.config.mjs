@@ -8,6 +8,7 @@ import tunnel from 'astro-tunnel';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://psychedelic-ethics.vercel.app',
+  trailingSlash: 'always',
   i18n: {
     defaultLocale: 'en',
     locales: ['es', 'en', 'fr', 'es-419', 'nl', 'de', 'pt-BR'],
