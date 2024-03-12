@@ -23,7 +23,8 @@ function buildToc(headings: any[]) {
 const tableOfContents = buildToc(headings);
 ---
 
-<details class="fixed text-sm w-auto md:w-80 max-w-80 bg-white border rounded-md right-auto left-4 bottom-6 cursor-pointer group max-h-24 open:max-h-96 transition-all overflow-y-auto">
+<nav aria-label={translations.toc}=>
+<details class="fixed prose text-sm w-auto md:w-80 max-w-80 bg-white border-2 border-emerald-400 rounded-md right-auto left-4 bottom-6 cursor-pointer group max-h-24 open:max-h-96 transition-all overflow-y-auto">
   <summary class="flex bg-white sticky top-0 p-2 gap-2 rounded-t-md group-open:border-b group-open:ring-transparent ring-offset-2 focus-visible:ring focus-visible:ring-2 focus-visible:ring-pink-300 items-center text-sm fontblack"><Icon class="w-8 h-8" name="toc" /><span>{translations.toc}</span></summary>
 <ul class="px-2 md:px-10 w-full" >
   {headings && tableOfContents.map(heading => <li>
@@ -43,6 +44,7 @@ const tableOfContents = buildToc(headings);
     </li>)}
  </ul>
 </details>
+</nav>
 
 <style>
   details::-webkit-scrollbar {
@@ -50,10 +52,10 @@ const tableOfContents = buildToc(headings);
 }
  
 details::-webkit-scrollbar-thumb {
-  @apply bg-emerald-400 rounded-3xl;
+  @apply bg-emerald-400 rounded-md;
 }
 
 details::-webkit-scrollbar-track {
-  @apply bg-gray-100 rounded-3xl;
+  @apply bg-gray-100 rounded-md;
 }
 </style>

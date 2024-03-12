@@ -1,6 +1,6 @@
 ---
 title: De Hopkins-Oxford Psychedelics Ethics (HOPE) Workshop Consensusverklaring
-description: Here is a description
+description: De eerste Hopkins-Oxford Psychedelic Ethics Workshop bijeengeroepen om ethische kwesties met betrekking tot psychedelica te bespreken in augustus 2023.
 language: Dutch
 languageCode: nl
 image: ./social.webp
@@ -14,7 +14,7 @@ translation: nl
 
 De eerste Hopkins-Oxford Psychedelic Ethics (HOPE) Workshop bijeengeroepen om ethische kwesties met betrekking tot psychedelica te bespreken in augustus 2023 aan de Universiteit van Oxford.
 
-De organisatoren (BDE, DBY, EJ) streefden naar een diversiteit aan achtergronden en perspectieven van de deelnemers. De keynotes werden gegeven door een inheemse geleerde en een psychiater; andere aanwezigen waren advocaten en ethici, psychedelische wetenschappers, antropologen, filosofen, ondernemers en schadebeperkende actoren.
+De organisatoren (<abbr title="Brian D Earp">BDE</abbr>, <abbr title="David B Yaden">DBY</abbr>, <abbr title="Edward Jacobs">EJ</abbr>) streefden naar een diversiteit aan achtergronden en perspectieven van de deelnemers. De keynotes werden gegeven door een inheemse geleerde en een psychiater; andere aanwezigen waren advocaten en ethici, psychedelische wetenschappers, antropologen, filosofen, ondernemers en schadebeperkende actoren.
 
 De workshop werd georganiseerd vanuit het besef dat het veld van psychedelica zich op een scharnierpunt in zijn geschiedenis bevindt: onderzoek, klinische toepassingen en beleidsinitiatieven breiden zich snel uit. Het gebruik van psychedelica breidt zich uit en de ontwikkeling van nieuwe systemen voor het reguleren van hun gebruik is al in volle gang. Deze veranderingen vinden plaats terwijl er grote onzekerheid blijft bestaan, zowel over de effecten van psychedelica als over de ethische dimensies rond het gebruik ervan. We erkennen dat er een aanzienlijk risico is op zowel schade als potentiële voordelen. Deelnemers aan de workshop bespraken de ethische aspecten van psychedelica, waaronder onderzoeksmethoden, klinische praktijken, geschiedenis, recht en samenleving, spiritualiteit, gemeenschap, cultuur en politiek die zich voordoen met betrekking tot psychedelica.
 

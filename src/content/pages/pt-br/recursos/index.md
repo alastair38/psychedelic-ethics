@@ -1,6 +1,6 @@
 ---
 title: Leituras recomendadas
-description: Here is a description
+description: Leitura recomendada sobre ética relacionada a psicodélicos
 language: Brazilian Portuguese
 languageCode: pt-BR
 image: ./image.jpeg

@@ -21,7 +21,7 @@ const link = cva(
         primary: [
         "font-mono bg-teal-400 hover:bg-teal-300 focus:outline-none hover:ring-2 focus-visible:ring-2 ring-teal-300 ring-offset-2 rounded-full no-underline border w-fit justify-self-center"
         ],
-        ghost: ["font-mono relative w-fit mx-auto hover:underline focus-visible:underline text-gray-100 rounded-full"],
+        ghost: ["font-mono relative w-fit mx-auto hover:underline focus-visible:underline text-gray-100 outline-none"],
         outline: ["font-mono border  focus:outline-none hover:ring-1 focus-visible:ring-1 ring-teal-300 ring-offset-2 rounded-full no-underline border w-fit justify-self-center"],
         secondary: [
           "bg-white",
@@ -40,7 +40,7 @@ const link = cva(
         medium: ["mt-4"],
       },
       active: {
-        true: ["after:absolute after:-right-2 after:content-['✓']"],
+        true: ["after:absolute after:-right-1 after:content-['✓']"],
       }
     },
     compoundVariants: [

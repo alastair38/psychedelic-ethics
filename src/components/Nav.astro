@@ -9,16 +9,15 @@ const { translations, pageLang  } = Astro.props;
 
 ---
 
-<header class="p-4 bg-slate-900">
+<header class="p-2 md:p-4 bg-slate-900 flex relative sticky -top-[4.5rem] md:-top-[6.5rem]">
   
-  <nav aria-label={translations.navMainAria} class="max-w-screen-xl flex flex-col md:flex-row mx-auto items-center justify-between">
-    <a href={pageLang !== 'en' ? `/${pageLang.toLowerCase()}` : `/`} class="group flex flex-row mx-auto md:mx-0 items-center gap-4 justify-center outline-none">
+  <nav aria-label={translations.navMainAria} class="max-w-screen-xl flex flex-col md:gap-4 mx-auto">
+    <a href={pageLang !== 'en' ? `/${pageLang.toLowerCase()}` : `/`} title={translations.siteTitle} class="group flex justify-center outline-none">
       <Icon aria-hidden="true" name="logo" class="w-20 h-20 md:w-36 md:h-full text-white outline-2 outline-offset-4 outline-teal-400 group-focus-visible:outline" />
-    <span class="sr-only font-black text-xl text-gray-100">{translations.siteTitle}</span>
+      <span class="sr-only">{translations.siteTitle}</span>
     </a>
    
-    
-    <ul id="main-menu" class="grid grid-flow-col auto-cols-fr place-items-center capitalize fit-content md:ml-auto gap-6">
+    <ul id="main-menu" class="grid grid-flow-col auto-cols-fr place-items-center capitalize fit-content md:ml-auto gap-0 md:gap-6">
       
       {translations.navMain.map((i: any) => (
         (Astro.url.pathname === i.url ? 
@@ -35,29 +34,37 @@ const { translations, pageLang  } = Astro.props;
     
     </ul>
  
-   
   </nav>
   
-  <nav aria-label={translations.navLangAria} class="flex gap-3 items-center outline-1 outline outline-white fixed bottom-6 right-4 shadow-md rounded-md text-gray-100 bg-slate-900">
-    <details class="cursor-pointer group max-h-12 open:max-h-80 md:min-w-60 transition-all duration-300">
-      <summary class="flex gap-3 rounded-md group-open:ring-transparent ring-offset-2 focus-visible:ring focus-visible:ring-2 focus-visible:ring-pink-300 items-center justify-center px-1 py-2 md:px-3 md:py-2 text-sm uppercase"><Icon class="group-open:rotate-90 transition-all duration-300" name="chevron" /><span class="sr-only group-open:not-sr-only md:not-sr-only">{translations.langChooser}</span> <Icon name={pageLang} /></summary>
+  <nav aria-label={translations.navLangAria} class="flex gap-3 items-center fixed top-4 md:top-2 right-2 text-gray-100">
     
-  <ul id="language-menu" class="flex flex-col gap-2 px-3 pb-3 pt-2 border-t border-t-white transition-all duration-300">
-    
-    {translations.navLang.map((i: any) => (
-      (pageLang.toLowerCase() === i.lang.toLowerCase() ? 
-          <li>
-            <Link href={i.url} intent={"ghost"} size={"small"} active={true}>{i.text}</Link>
-          </li>  
-          :
-          <li>
-            <Link href={i.url} intent={"ghost"} size={"small"}>{i.text}</Link>
-          </li>  
-      )
-    )
-    )}
+    <details class="cursor-pointer group max-h-12 open:max-h-80 md:min-w-60 transition-all duration-300 outline-1 open:outline outline-white rounded-md shadow-md bg-slate-900">
       
-  </ul>
-</details>
-</nav> 
+      <summary class="flex gap-3 rounded-md group-open:ring-transparent ring-offset-2 focus-visible:ring focus-visible:ring-2 focus-visible:ring-emerald-400 items-center justify-center px-3 py-2 md:px-3 md:py-2 text-sm uppercase">
+        <Icon class="group-open:rotate-90 transition-all duration-300" name="chevron" />
+        <span class="sr-only group-open:not-sr-only md:not-sr-only">{translations.langChooser}</span> 
+        <Icon name={pageLang} />
+      </summary>
+    
+      <ul id="language-menu" class="flex flex-col gap-2 px-3 pb-3 pt-2 border-t border-t-white transition-all duration-300">
+        
+        {translations.navLang.map((i: any) => (
+          (pageLang.toLowerCase() === i.lang.toLowerCase() ? 
+              <li>
+                <Link href={i.url} intent={"ghost"} size={"small"} active={true}>{i.text}</Link>
+              </li>  
+              :
+              <li>
+                <Link href={i.url} intent={"ghost"} size={"small"}>{i.text}</Link>
+              </li>  
+          )
+        )
+        )}
+          
+      </ul>
+      
+    </details>
+    
+  </nav> 
+
 </header>

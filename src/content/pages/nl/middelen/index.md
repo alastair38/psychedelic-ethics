@@ -1,6 +1,6 @@
 ---
 title: Aanbevolen lectuur
-description: Here is a description
+description: Aanbevolen lectuur voor ethiek met betrekking tot psychedelica
 language: Dutch
 languageCode: nl
 image: ./image.jpeg

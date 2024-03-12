@@ -1,6 +1,6 @@
 ---
 title: Konsenserklärung des Workshops Hopkins-Oxford Psychedelics Ethics (HOPE)
-description: Here is a description
+description: Der erste Workshop für Hopkins-Oxford Psychedelic Ethics fand im August 2023, um ethische Fragen in Bezug auf Psychedelika zu diskutieren.
 language: German
 languageCode: de
 image: ./social.webp
@@ -14,7 +14,7 @@ translation: de
 
 Der erste Workshop für Hopkins-Oxford Psychedelic Ethics (HOPE) fand im August 2023 an der Universität Oxford statt, um ethische Fragen in Bezug auf Psychedelika zu diskutieren.
 
-Die Organisatoren (BDE, DBY, EJ) strebten eine Vielfalt von Hintergründen und Perspektiven der Teilnehmer an. Die Keynotes wurden von einem indigenen Gelehrten und einem Psychiater gehalten. Zu den weiteren Teilnehmern gehörten Anwälte und Ethiker, Psychedelika-Wissenschaftler, Anthropologen, Philosophen, Unternehmer sowie Akteure der Schadensminimierung.
+Die Organisatoren (<abbr title="Brian D Earp">BDE</abbr>, <abbr title="David B Yaden">DBY</abbr>, <abbr title="Edward Jacobs">EJ</abbr>) strebten eine Vielfalt von Hintergründen und Perspektiven der Teilnehmer an. Die Keynotes wurden von einem indigenen Gelehrten und einem Psychiater gehalten. Zu den weiteren Teilnehmern gehörten Anwälte und Ethiker, Psychedelika-Wissenschaftler, Anthropologen, Philosophen, Unternehmer sowie Akteure der Schadensminimierung.
 
 Der Workshop wurde basierend auf der Erkenntnis organisiert, dass sich das Gebiet der Psychedelika an einem entscheidenden Punkt in seiner Geschichte befindet: Forschung, klinische Anwendungen und politische Initiativen nehmen schnell zu. Der Einsatz von Psychedelika nimmt zu, und die Entwicklung neuer Systeme zum Steuern Ihrer Anwendung läuft bereits. Während diese Veränderungen stattfinden, bestehen erhebliche Unsicherheiten, sowohl über die Auswirkungen von Psychedelika als auch über die ethischen Dimensionen ihrer Verwendung. Wir sind uns bewusst, dass sowohl ein erhebliches Schadensrisiko als auch ein potenzieller Nutzen besteht. Die Teilnehmer des Workshops diskutierten die ethischen Aspekte von Psychedelika, die in Bezug auf Psychedelika entstehen, einschließlich Forschungsmethoden, klinischer Praktiken, Geschichte, Recht und Gesellschaft, Spiritualität, Gemeinschaft, Kultur und Politik.
 

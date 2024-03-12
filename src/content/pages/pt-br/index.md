@@ -1,6 +1,6 @@
 ---
 title: Declaração de Consenso do Workshop sobre Ética dos Psicodélicos da Hopkins-Oxford (Hopkins-Oxford Psychedelics Ethics — HOPE)
-description: Here is a description
+description: O primeiro workshop HOPE reuniu-se para discutir questões éticas relacionadas a psicodélicos em agosto de 2023 na Universidade de Oxford.
 language: Brazilian Portuguese
 languageCode: pt-BR
 image: ./social.webp
@@ -14,7 +14,7 @@ translation: pt-BR
 
 O primeiro workshop HOPE reuniu-se para discutir questões éticas relacionadas a psicodélicos em agosto de 2023 na Universidade de Oxford.
 
-Os organizadores (BDE, DBY, EJ) visaram uma diversidade de origens e perspetivas dos participantes. Os principais palestrantes foram um estudioso indígena e um psiquiatra; outros participantes incluíram advogados e especialistas em ética, cientistas de psicodélicos, antropólogos, filósofos, empresários e agentes de redução de danos.
+Os organizadores (<abbr title="Brian D Earp">BDE</abbr>, <abbr title="David B Yaden">DBY</abbr>, <abbr title="Edward Jacobs">EJ</abbr>) visaram uma diversidade de origens e perspetivas dos participantes. Os principais palestrantes foram um estudioso indígena e um psiquiatra; outros participantes incluíram advogados e especialistas em ética, cientistas de psicodélicos, antropólogos, filósofos, empresários e agentes de redução de danos.
 
 O workshop foi organizado dado o reconhecimento de que o campo dos psicodélicos está num ponto crucial da sua história: as pesquisas, aplicações clínicas e iniciativas políticas estão crescendo rapidamente. O uso de psicodélicos está se expandindo, e o desenvolvimento de novos sistemas que regem seu uso já está em andamento. Essas mudanças estão acontecendo ao mesmo tempo em que ainda há incertezas consideráveis, tanto sobre os efeitos dos psicodélicos quanto sobre as dimensões éticas acerca de seu uso. Reconhecemos que há um risco significativo de danos, bem como potenciais benefícios. Os participantes do workshop discutiram os aspectos éticos dos psicodélicos, incluindo métodos de pesquisa, práticas clínicas, história, direito e sociedade, espiritualidade, comunidade, culturas e políticas que surgem em relação aos psicodélicos.
 

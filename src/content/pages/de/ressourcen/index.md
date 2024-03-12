@@ -1,6 +1,6 @@
 ---
 title: Empfohlene Lektüre
-description: Here is a description
+description: Empfohlene Lektüre zum Thema Ethik im Zusammenhang mit Psychedelika
 language: German
 languageCode: de
 image: ./image.jpeg

@@ -1,6 +1,6 @@
 ---
 title: Lectures recommandées
-description: Here is a description
+description: Lectures recommandées pour l'éthique liée aux psychédéliques
 language: French
 languageCode: fr
 image: ./image.jpeg

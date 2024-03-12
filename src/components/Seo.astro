@@ -3,7 +3,7 @@ import { siteData } from "@data/siteData";
 const { pageData, pageTitle, socialImage, hrefLang, lang, url = Astro.url  } = Astro.props.frontmatter || Astro.props;
 ---
 
-<title>{siteData.name} {pageTitle && ' - ' + pageTitle || pageData?.title && ' - ' + pageData?.title}</title>
+<title>{pageTitle && pageTitle + ' - '|| pageData?.title && pageData?.title + ' - '} {siteData.name} </title>
 <meta name="description" content={pageData?.description || siteData.description}/>
 <!-- <link rel="sitemap" href="/sitemap-index.xml" /> uncomment this after checking build creates sitemap -->
 <link rel="canonical" href={url} />

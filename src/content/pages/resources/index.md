@@ -1,6 +1,6 @@
 ---
 title: Recommended Readings
-description: Here is a description
+description: Recommended reading for ethics related to psychedelics
 language: English
 languageCode: en
 image: ./image.jpeg

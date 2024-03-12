@@ -1,6 +1,6 @@
 ---
 title: Declaración de Consenso del Taller de Ética Psicodélica Hopkins-Oxford (HOPE)
-description: Here is a description
+description: En agosto de 2023, se realizó el primer taller de Ética Psicodélica Hopkins-Oxford con el fin de discutir cuestiones éticas relacionadas con las sustancias psicodélicas.
 language: Spanish
 languageCode: es-419
 image: ./social.webp
@@ -14,7 +14,7 @@ translation: es-419
 
 En agosto de 2023, se realizó en la Universidad de Oxford el primer taller de Ética Psicodélica Hopkins-Oxford (HOPE) con el fin de discutir cuestiones éticas relacionadas con las sustancias psicodélicas.
 
-Los organizadores (BDE, DBY, EJ) buscaron que los participantes tuvieran orígenes y perspectivas diversos. Las principales ponencias estuvieron a cargo de un investigador indígena y un psiquiatra; entre los asistentes había abogados y especialistas en ética, científicos especializados en psicodelia, antropólogos, filósofos, empresarios y agentes de reducción de daños.
+Los organizadores (<abbr title="Brian D Earp">BDE</abbr>, <abbr title="David B Yaden">DBY</abbr>, <abbr title="Edward Jacobs">EJ</abbr>) buscaron que los participantes tuvieran orígenes y perspectivas diversos. Las principales ponencias estuvieron a cargo de un investigador indígena y un psiquiatra; entre los asistentes había abogados y especialistas en ética, científicos especializados en psicodelia, antropólogos, filósofos, empresarios y agentes de reducción de daños.
 
 El taller se organizó a partir del reconocimiento de que el campo de la psicodelia se encuentra en un momento crucial de su historia: la investigación, las aplicaciones clínicas y las iniciativas políticas están aumentando rápidamente. El uso de sustancias psicodélicas se está extendiendo y ya se están desarrollando nuevos sistemas que regulan su uso. Estos cambios se están produciendo mientras persiste una gran incertidumbre, tanto sobre los efectos de las sustancias psicodélicas como sobre las dimensiones éticas que rodean su uso. Reconocemos que existe un riesgo significativo de que se produzcan daños, así como beneficios potenciales. Los participantes en el taller debatieron los aspectos éticos de las sustancias psicodélicas, incluidos los métodos de investigación, las prácticas clínicas, la historia, el derecho y la sociedad, la espiritualidad, la comunidad, la cultura y la política que surgen en relación con las sustancias psicodélicas.
 

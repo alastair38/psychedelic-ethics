@@ -70,17 +70,19 @@ function versionText(textObj: any, lang: string) {
 		
 		<Nav translations={pageTranslation.data} pageLang={pageTranslation.id}/>
 		
-		<main class="my-6 md:my-12 p-4 mx-auto prose max-w-[75ch] prose-h2:text-lg md:prose-h2:text-2xl prose-ol:list-roman" >
+		<main class="my-6 md:my-12 p-4 mx-auto max-w-[75ch]" >
 			<!-- {entry.data.image && <BlockhausImage intent={entry.data.width} width={entry.data.image.width} height={entry.data.image.width} alt={entry.data.alt ? entry.data.alt : ''} src={entry.data.image} />} -->
 			
-		 <div>
+		 
 			 
-			 <h1 class="text-xl md:text-3xl">{pageData?.title}</h1>
+			 <h1 class="text-xl md:text-3xl text-pretty">{pageData?.title}</h1>
 			 
 			 {headings && headings.length > 0 && <Toc headings={headings} translations={pageTranslation.data}/>}
 			
-			 <slot />
-			
+			 <div class="prose my-8 prose-sm md:prose-base prose-h2:text-lg md:prose-h2:text-2xl prose-ol:list-roman mx-auto max-w-[75ch]">
+			 	<slot />
+			 </div>
+			 
 			 <div class="flex flex-col md:flex-row items-center rounded-md gap-6 mt-12 divide-x">
 				
 				<span class="text-xs uppercase">{pageTranslation.data.versions}</span>
@@ -88,7 +90,7 @@ function versionText(textObj: any, lang: string) {
 				
 				{relatedPages && relatedPages.map((page: CollectionEntry<'pages'>) => {
 					Astro.url.pathname === `/${page.slug}` ?
-					<a title={`${versionText(pageTranslation.data.versionText, page.data.translation.id)}`} class="flex items-center justify-center bg-gray-100 rounded-full h-12 w-12 items-center gap-1 outline-2 outline-offset-2 outline-teal-200 outline hover:outline focus-visible:outline" href={`${Astro.url.origin}/${page.slug}`}><Icon name={page.data.translation.id} /> <span class="sr-only">{versionText(pageTranslation.data.versionText, page.data.translation.id)}</span> </a> :
+					<a title={`${versionText(pageTranslation.data.versionText, page.data.translation.id)}`} class="flex items-center justify-center bg-gray-100 rounded-full h-12 w-12 items-center gap-1 outline-2 outline-offset-2 outline-teal-200 outline hover:outline focus-visible:outline hover:outline-black focus-visible:outline-black" href={`${Astro.url.origin}/${page.slug}`}><Icon name={page.data.translation.id} /> <span class="sr-only">{versionText(pageTranslation.data.versionText, page.data.translation.id)}</span> </a> :
 					<a title={`${versionText(pageTranslation.data.versionText, page.data.translation.id)}`} class="flex items-center justify-center bg-gray-100 rounded-full h-12 w-12 items-center gap-1 outline-2 outline-offset-2 hover:outline-teal-200 hover:outline focus-visible:outline" href={`${Astro.url.origin}/${page.slug}`}><Icon name={page.data.translation.id} /> <span class="sr-only">{versionText(pageTranslation.data.versionText, page.data.translation.id)}</span> </a>
 				})}
 				
@@ -96,7 +98,7 @@ function versionText(textObj: any, lang: string) {
 				
 				</div>
 			 </div>
-		 </div>
+		
 		
 	 	</main>
 		

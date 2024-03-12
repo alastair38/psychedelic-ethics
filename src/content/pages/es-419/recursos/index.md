@@ -1,6 +1,6 @@
 ---
 title: Lecturas recomendadas
-description: Here is a description
+description: Lecturas recomendadas sobre ética relacionada con la psicodelia
 language: Spanish
 languageCode: es-419
 image: ./image.jpeg

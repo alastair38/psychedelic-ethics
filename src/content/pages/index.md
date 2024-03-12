@@ -1,6 +1,6 @@
 ---
 title: The Hopkins-Oxford Psychedelics Ethics (HOPE) Workshop Consensus Statement
-description: Here is a description
+description: The first Hopkins-Oxford Psychedelic Ethics workshop convened to discuss ethical matters relating to psychedelics in August 2023.
 language: English
 languageCode: en
 image: ./social.webp
@@ -13,7 +13,7 @@ slug: ''
 
 ## Introduction
 
-The first Hopkins-Oxford Psychedelic Ethics (HOPE) workshop convened to discuss ethical matters relating to psychedelics in August of 2023 at the University of Oxford. The organizers (BDE, DBY, EJ) aimed for a diversity of participant backgrounds and perspectives. The keynotes were given by an Indigenous scholar and a psychiatrist; other attendees included lawyers and ethicists, psychedelic scientists, anthropologists, philosophers, entrepreneurs and harm reduction actors.
+The first Hopkins-Oxford Psychedelic Ethics (HOPE) workshop convened to discuss ethical matters relating to psychedelics in August of 2023 at the University of Oxford. The organizers (<abbr title="Brian D Earp">BDE</abbr>, <abbr title="David B Yaden">DBY</abbr>, <abbr title="Edward Jacobs">EJ</abbr>) aimed for a diversity of participant backgrounds and perspectives. The keynotes were given by an Indigenous scholar and a psychiatrist; other attendees included lawyers and ethicists, psychedelic scientists, anthropologists, philosophers, entrepreneurs and harm reduction actors.
 
 The workshop was organized out of a recognition that the field of psychedelics is at a pivotal point in its history: research, clinical applications, and policy initiatives are quickly scaling up. The use of psychedelics is expanding, and the development of new systems governing their use is already underway. These changes are happening while substantial uncertainty remains, both about the effects of psychedelics and about the ethical dimensions surrounding their use. We recognize that there is a significant risk of harms as well as potential benefits. Participants at the workshop discussed the ethical aspects of psychedelics, including research methods, clinical practices, history, law and society, spirituality, community, culture and politics that arise in relation to psychedelics.
 

@@ -1,6 +1,6 @@
 ---
 title: Déclaration de consensus de l’atelier Hopkins-Oxford Psychedelics Ethics (HOPE)
-description: Here is a description
+description: Le premier atelier Hopkins-Oxford Psychedelic Ethics s’est réuni pour discuter des questions éthiques liées aux psychédéliques en août 2023.
 language: French
 languageCode: fr
 image: ./social.webp
@@ -14,7 +14,7 @@ translation: fr
 
 Le premier atelier Hopkins-Oxford Psychedelic Ethics (HOPE) s’est réuni pour discuter des questions éthiques liées aux psychédéliques en août 2023 à l’Université d’Oxford.
 
-Les organisateurs (BDE, DBY, EJ) ont voulu refléter la diversité de parcours et de perspectives des participants. Les discours principaux ont été donnés par un chercheur autochtone et un psychiatre, et les autres participants comprenaient des avocats et des éthiciens, des scientifiques qui travaillent sur les psychédéliques, des anthropologues, des philosophes, des entrepreneurs et des acteurs de la réduction des méfaits.
+Les organisateurs (<abbr title="Brian D Earp">BDE</abbr>, <abbr title="David B Yaden">DBY</abbr>, <abbr title="Edward Jacobs">EJ</abbr>) ont voulu refléter la diversité de parcours et de perspectives des participants. Les discours principaux ont été donnés par un chercheur autochtone et un psychiatre, et les autres participants comprenaient des avocats et des éthiciens, des scientifiques qui travaillent sur les psychédéliques, des anthropologues, des philosophes, des entrepreneurs et des acteurs de la réduction des méfaits.
 
 L’atelier a été organisé en reconnaissance du fait que le domaine des psychédéliques est à un moment charnière de son histoire : la recherche, les applications cliniques et les initiatives politiques se développent rapidement. L’utilisation des psychédéliques est en pleine expansion et le développement de nouveaux systèmes qui régissent leur utilisation est déjà en cours. Ces changements se produisent malgré le fait qu’une incertitude substantielle demeure, à la fois sur les effets des psychédéliques et sur les dimensions éthiques autour de leur utilisation. Nous reconnaissons qu’il existe un risque important de préjudices ainsi que des avantages potentiels. Les participants à l’atelier ont discuté des aspects éthiques des psychédéliques, y compris les méthodes de recherche, les pratiques cliniques, l’histoire, le droit et la société, la spiritualité, la communauté, la culture et la politique qui se posent en relation avec les psychédéliques.
 
