@@ -3,9 +3,8 @@ title: Lectures recommandées
 description: Lectures recommandées pour l'éthique liée aux psychédéliques
 language: French
 languageCode: fr
-image: ./image.jpeg
-alt: A description of the about
-file: dummy.pdf
+image: ../social.webp
+alt: The Hub at Oxford for Psychedelic Ethics logo
 otherLanguages:
   [
     'nl/middelen',

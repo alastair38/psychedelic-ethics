@@ -3,9 +3,8 @@ title: Aanbevolen lectuur
 description: Aanbevolen lectuur voor ethiek met betrekking tot psychedelica
 language: Dutch
 languageCode: nl
-image: ./image.jpeg
-alt: A description of the about
-file: dummy.pdf
+image: ../social.webp
+alt: The Hub at Oxford for Psychedelic Ethics logo
 otherLanguages:
   [
     'nl/middelen',

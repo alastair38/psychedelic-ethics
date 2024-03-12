@@ -9,8 +9,8 @@ const pagesCollection = defineCollection({
     z.object({
       title: z.string(),
       description: z.string(),
-      language: z.string(),
-      languageCode: z.string(),
+      language: z.string().optional(),
+      languageCode: z.string().optional(),
       image: image().optional(),
       alt: z.string().optional(),
       file: z.string().optional(),

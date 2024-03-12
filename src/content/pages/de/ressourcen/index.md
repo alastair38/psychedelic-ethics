@@ -3,9 +3,8 @@ title: Empfohlene Lektüre
 description: Empfohlene Lektüre zum Thema Ethik im Zusammenhang mit Psychedelika
 language: German
 languageCode: de
-image: ./image.jpeg
-alt: A description of the about
-file: dummy.pdf
+image: ../social.webp
+alt: The Hub at Oxford for Psychedelic Ethics logo
 otherLanguages:
   [
     'nl/middelen',

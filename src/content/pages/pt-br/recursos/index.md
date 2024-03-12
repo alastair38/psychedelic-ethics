@@ -3,9 +3,8 @@ title: Leituras recomendadas
 description: Leitura recomendada sobre ética relacionada a psicodélicos
 language: Brazilian Portuguese
 languageCode: pt-BR
-image: ./image.jpeg
-alt: A description of the about
-file: dummy.pdf
+image: ../social.webp
+alt: The Hub at Oxford for Psychedelic Ethics logo
 otherLanguages:
   [
     'nl/middelen',

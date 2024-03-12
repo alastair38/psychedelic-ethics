@@ -3,9 +3,8 @@ title: Lecturas recomendadas
 description: Lecturas recomendadas sobre ética relacionada con la psicodelia
 language: Spanish
 languageCode: es-419
-image: ./image.jpeg
-alt: A description of the about
-file: dummy.pdf
+image: ../social.webp
+alt: The Hub at Oxford for Psychedelic Ethics logo
 otherLanguages:
   [
     'nl/middelen',

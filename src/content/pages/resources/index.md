@@ -3,9 +3,8 @@ title: Recommended Readings
 description: Recommended reading for ethics related to psychedelics
 language: English
 languageCode: en
-image: ./image.jpeg
-alt: A description of the about
-file: dummy.pdf
+image: ../social.webp
+alt: The Hub at Oxford for Psychedelic Ethics logo
 otherLanguages:
   [
     'nl/middelen',
