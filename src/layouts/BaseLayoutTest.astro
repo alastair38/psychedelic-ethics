@@ -77,23 +77,23 @@ if(path === '/') {
 		
 		<Nav translations={pageTranslation.data} pageLang={pageTranslation.id}/>
 		
-		<main class="my-6 md:my-12 p-4 mx-auto max-w-[75ch]" >
-			<!-- {entry.data.image && <BlockhausImage intent={entry.data.width} width={entry.data.image.width} height={entry.data.image.width} alt={entry.data.alt ? entry.data.alt : ''} src={entry.data.image} />} -->
-			
-		 
+		<main class="my-6 md:my-12 p-4" >
 			 
-			 <h1 class="text-xl md:text-3xl text-pretty dark:text-white">{pageData?.title}</h1>
 			 
-			 {headings && headings.length > 0 && <Toc headings={headings} translations={pageTranslation.data}/>}
 			
 			 <div class="prose dark:prose-invert my-8 prose-sm md:prose-base prose-h2:text-lg md:prose-h2:text-2xl prose-ol:list-roman mx-auto max-w-[75ch]">
-			 	<slot />
-			 </div>
-
+				
+				<h1 class="text-xl md:text-3xl text-pretty dark:text-white">{pageData?.title}</h1>
+				
+			 	{headings && headings.length > 0 && <Toc headings={headings} translations={pageTranslation.data}/>}
+				
+				<slot />
+			 
 			 <div class="flex flex-col md:flex-row items-center rounded-md gap-6 mt-12 divide-x">
 				
 				<span class="text-xs uppercase dark:text-white">{pageTranslation.data.versions} </span>
-				<div class="flex flex-wrap justify-center gap-4 px-6">
+				
+				<nav aria-label={pageTranslation.data.versions} class="flex flex-wrap justify-center gap-4 px-6">
 				
 				{relatedPages && relatedPages.map((page: CollectionEntry<'pages'>) => {
 					
@@ -107,9 +107,9 @@ if(path === '/') {
 				
 				
 				
-				</div>
+				</nav>
 			 </div>
-		
+		</div>
 		
 	 	</main>
 		
