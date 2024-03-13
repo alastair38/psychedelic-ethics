@@ -73,7 +73,7 @@ if(path === '/') {
 		
 	</head>
 	
-	<body class="min-h-[101vh] flex flex-col justify-between">
+	<body class="min-h-[101vh] flex flex-col justify-between dark:bg-slate-900">
 		
 		<Nav translations={pageTranslation.data} pageLang={pageTranslation.id}/>
 		
@@ -82,17 +82,17 @@ if(path === '/') {
 			
 		 
 			 
-			 <h1 class="text-xl md:text-3xl text-pretty">{pageData?.title}</h1>
+			 <h1 class="text-xl md:text-3xl text-pretty dark:text-white">{pageData?.title}</h1>
 			 
 			 {headings && headings.length > 0 && <Toc headings={headings} translations={pageTranslation.data}/>}
 			
-			 <div class="prose my-8 prose-sm md:prose-base prose-h2:text-lg md:prose-h2:text-2xl prose-ol:list-roman mx-auto max-w-[75ch]">
+			 <div class="prose dark:prose-invert my-8 prose-sm md:prose-base prose-h2:text-lg md:prose-h2:text-2xl prose-ol:list-roman mx-auto max-w-[75ch]">
 			 	<slot />
 			 </div>
 
 			 <div class="flex flex-col md:flex-row items-center rounded-md gap-6 mt-12 divide-x">
 				
-				<span class="text-xs uppercase">{pageTranslation.data.versions} </span>
+				<span class="text-xs uppercase dark:text-white">{pageTranslation.data.versions} </span>
 				<div class="flex flex-wrap justify-center gap-4 px-6">
 				
 				{relatedPages && relatedPages.map((page: CollectionEntry<'pages'>) => {
