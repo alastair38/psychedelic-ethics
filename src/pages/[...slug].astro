@@ -1,8 +1,7 @@
 ---
-import { getCollection, getEntries } from 'astro:content';
+import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
-import BaseLayout from "@layouts/BaseLayout.astro";
-import BaseLayoutTest from '@layouts/BaseLayoutTest.astro';
+import BaseLayout from '@layouts/BaseLayout.astro';
 import { getImage } from 'astro:assets';
 import { getEntry } from 'astro:content';
 
@@ -24,9 +23,8 @@ const socialImgSrc = await getImage({src: entry.data.image as ImageMetadata, hei
 
 ---
 
-
-<BaseLayoutTest pageData={entry.data} headings={headings} pageTranslation={translation} socialImage={socialImgSrc} >
+<BaseLayout pageData={entry.data} headings={headings} pageTranslation={translation} socialImage={socialImgSrc} >
     
-      <Content />
+  <Content />
    
-</BaseLayoutTest>
+</BaseLayout>

@@ -8,8 +8,6 @@ const { pageData, pageTitle, socialImage, hrefLang, lang, url = Astro.url  } = A
 <!-- <link rel="sitemap" href="/sitemap-index.xml" /> uncomment this after checking build creates sitemap -->
 <link rel="canonical" href={url} />
 
-
-
 {hrefLang.map( (l: { data: { translation: { id: string | null | undefined; }; }; slug: any; }) => 
     <link rel="alternate" hreflang={l.data.translation.id} href={`${Astro.url.origin}/${l.slug}`} />
 )}
