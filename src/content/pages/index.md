@@ -5,7 +5,7 @@ language: English
 languageCode: en
 image: ./social.webp
 alt: The Hub at Oxford for Psychedelic Ethics logo
-file: report.pdf
+file: ../report.pdf
 otherLanguages: ['nl', '', 'es-419', 'fr', 'pt-br', 'de']
 translation: en
 slug: ''

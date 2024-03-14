@@ -17,6 +17,8 @@ otherLanguages:
 translation: pt-BR
 ---
 
+[Faça o download da declaração de consenso em inglês [PDF]](/report.pdf)
+
 Appelbaum, P. S. (2022). **Psychedelic research and the real world**. Nature, 609(7929), S95-S95.
 
 Breeksema, J. J., Kuin, B. W., Kamphuis, J., van den Brink, W., Vermetten, E., & Schoevers, R. A. (2022). **Adverse events in clinical treatments with serotonergic psychedelics and MDMA: A mixed-methods systematic review**. Journal of Psychopharmacology, 36(10), 1100-1117.
