@@ -57,11 +57,9 @@ if(path === '/') {
 			
 			{headings && headings.length > 0 && <Toc headings={headings} translations={pageTranslation.data}/>}
 			
-			 <div class="prose dark:prose-invert my-8 prose-sm md:prose-base prose-h2:text-lg md:prose-h2:text-2xl prose-ol:list-roman mx-auto max-w-[75ch]">
+			 <div class="prose dark:prose-invert prose-sm md:prose-base prose-h2:text-lg md:prose-h2:text-2xl prose-ol:list-roman mx-auto max-w-[75ch]">
 				
 				<h1 class="text-xl md:text-3xl text-pretty dark:text-white">{pageData?.title}</h1>
-				
-			 	
 				
 				<slot />
 			 

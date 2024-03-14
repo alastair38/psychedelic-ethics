@@ -109,9 +109,25 @@ In line with our intention to convey some central issues in psychedelic ethics a
 - There is a wealth of insight and understanding around psychedelics held in communities outside of research institutions. Researchers must acknowledge and actively credit the sources of information they use, even where these come from outside of the peer-reviewed literature.
 - Researchers should seek to make the outputs of their research as accessible as possible (e.g., publishing open access when feasible; producing lay summaries).
 
+<div class="not-prose bg-gray-100 p-6 space-y-6 rounded-md my-12">
+
+<div class="space-y-3">
+  
 **Signatories**
 
 Edward Jacobs, Brian D. Earp, Paul Appelbaum, Lori Bruce, Ksenia Cassidy, Yuria Celidwen, Katherine Cheung, Sean Clancy, Neşe Devenot, Jules Evans, Holly Fernandez Lynch, Phoebe Friesen, Albert Garcia Romeu, Neil Gehani, Molly Maloof, Olivia Marcus, Ole Martin Moen, Mayli Mertens, Sandeep M. Nayak, Tehseen Noorani, Kyle Patch, Sebastian Porsdam-Mann, Gokul Raj, Khaleel Rajwani, Keisha Ray, William Smith, Daniel Villager, Neil Levy, Roger Crisp, Julian Savulescu, Ilina Singh, David B. Yaden
+
+</div>
+
+<div class="space-y-3">
+
+**To cite this report**
+
+Jacobs, E., Earp, B. D., Appelbaum, P., Bruce, L., Cassidy, K., Celidwen, Y., Cheung, K., Clancy, S., Devenot, N., Evans, J., Fernandez-Lynch, H., Friesen, P., Garcia-Romeu, A., Gehani, N., Maloof, M., Marcus, O., Moen, O. M., Mertens, M., Nayak, S. M., … Yaden, D. B. (2024) The Hopkins-Oxford Psychedelic Ethics (HOPE) Working Group Consensus Statement. _American Journal of Bioethics_.
+
+</div>
+
+</div>
 
 <details class="p-3 rounded-md group my-12 outline-double outline-4 outline-offset-4 outline-emerald-400">
 <summary class="font-black cursor-pointer flex items-center gap-3">

@@ -109,9 +109,25 @@ In overeenstemming met onze intentie om een aantal centrale kwesties in de psych
 - Er bestaat een schat aan inzicht en begrip rond psychedelica in gemeenschappen buiten onderzoeksinstellingen. Onderzoekers moeten de informatiebronnen die zij gebruiken erkennen en actief vermelden, zelfs als deze van buiten de collegiaal getoetste literatuur komen.
 - Onderzoekers moeten ernaar streven om de output van hun onderzoek zo toegankelijk mogelijk te maken (bijv. door e publiceren met open toegang wanneer dat haalbaar is; door samenvattingen voor leken te maken).
 
+<div class="not-prose bg-gray-100 p-6 space-y-6 rounded-md my-12">
+
+<div class="space-y-3">
+  
 **Ondertekenaars**
 
 Edward Jacobs, Brian D. Earp, Paul Appelbaum, Lori Bruce, Ksenia Cassidy, Yuria Celidwen, Katherine Cheung, Sean Clancy, Neşe Devenot, Jules Evans, Holly Fernandez Lynch, Phoebe Friesen, Albert Garcia Romeu, Neil Gehani, Molly Maloof, Olivia Marcus, Ole Martin Moen, Mayli Mertens, Sandeep M. Nayak, Tehseen Noorani, Kyle Patch, Sebastian Porsdam-Mann, Gokul Raj, Khaleel Rajwani, Keisha Ray, William Smith, Daniel Villager, Neil Levy, Roger Crisp, Julian Savulescu, Ilina Singh, David B. Yaden
+
+</div>
+
+<div class="space-y-3">
+
+**Om deze consensusverklaring te citeren**
+
+Jacobs, E., Earp, B. D., Appelbaum, P., Bruce, L., Cassidy, K., Celidwen, Y., Cheung, K., Clancy, S., Devenot, N., Evans, J., Fernandez-Lynch, H., Friesen, P., Garcia-Romeu, A., Gehani, N., Maloof, M., Marcus, O., Moen, O. M., Mertens, M., Nayak, S. M., … Yaden, D. B. (2024) The Hopkins-Oxford Psychedelic Ethics (HOPE) Working Group Consensus Statement. _American Journal of Bioethics_.
+
+</div>
+
+</div>
 
 <details class="p-3 rounded-md group my-12 outline-double outline-4 outline-offset-4 outline-emerald-400">
 <summary class="font-black cursor-pointer flex items-center gap-3">
