@@ -5,7 +5,6 @@
   "versionText": {
     "en": "English",
     "fr": "French",
-    "es": "Spanish",
     "es-419": "Spanish (Latin America)",
     "pt-BR": "Portuguese (BR)",
     "nl": "Dutch",
@@ -38,16 +37,11 @@
     },
     {
       "text": "Spanish",
-      "url": "/es/",
-      "lang": "es"
-    },
-    {
-      "text": "Spanish (Latin America)",
       "url": "/es-419/",
       "lang": "es-419"
     },
     {
-      "text": "Portuguese (BR)",
+      "text": "Portuguese",
       "url": "/pt-br/",
       "lang": "pt-BR"
     },

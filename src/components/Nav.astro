@@ -4,15 +4,17 @@ import Link from "@components/Link.astro";
 const { translations, pageLang  } = Astro.props;
 ---
 
-<header class="p-2 md:p-4 bg-slate-900 dark:bg-slate-950 flex relative sticky -top-[4.5rem] md:-top-[6.5rem]">
+<header class="p-2 md:p-4 bg-slate-900 dark:bg-slate-950 flex items-center flex-col md:gap-4 relative sticky -top-[5rem] md:-top-[6.5rem]">
   
-  <nav aria-label={translations.navMainAria} class="max-w-screen-xl flex flex-col md:gap-4 mx-auto">
-    <a href={pageLang !== 'en' ? `/${pageLang.toLowerCase()}/` : `/`} title={translations.siteTitle} class="group flex justify-center outline-none">
-      <Icon aria-hidden="true" name="logo" class="w-20 h-20 md:w-36 md:h-full text-white outline-2 outline-offset-4 outline-teal-400 group-focus-visible:outline" />
-      <span class="sr-only">{translations.siteTitle}</span>
-    </a>
+  <a href={pageLang !== 'en' ? `/${pageLang.toLowerCase()}/` : `/`} title={translations.siteTitle} class="group flex justify-center outline-none">
+    <Icon aria-hidden="true" name="logo" class="w-20 h-20 md:w-36 md:h-full text-white outline-2 outline-offset-4 outline-teal-400 group-focus-visible:outline" />
+    <span class="sr-only">{translations.siteTitle}</span>
+  </a>
+     <div class="max-w-screen-xl flex flex-wrap justify-center md:gap-x-6 md:gap-y-3">
+  <nav aria-label={translations.navMainAria} class="flex flex-col md:gap-4 mx-auto">
    
-    <ul id="main-menu" class="grid grid-flow-col auto-cols-fr place-items-center capitalize fit-content md:ml-auto gap-0 md:gap-6">
+   
+    <ul id="main-menu" class="gridgrid-flow-colauto-cols-fr flex items-center justify-center capitalize fit-content mx-auto gap-0 md:gap-3">
       
       {translations.navMain.map((i: any) => (
         (Astro.url.pathname === i.url ? 
@@ -26,12 +28,59 @@ const { translations, pageLang  } = Astro.props;
         )
       )
       )}
-    
+
     </ul>
- 
-  </nav>
+    </nav>
+    <nav>
+    <ul class="hidden md:flex flex-wrap justify-center gap-3">
+      <li class="rounded-full px-3 text-sm uppercase bg-emerald-400 flex items-center gap-2">{translations.langChooser}</li>
+      {translations.navLang.map((i: any) => (
+        (pageLang.toLowerCase() === i.lang.toLowerCase() ? 
+            <li>
+              <Link href={i.url} intent={"ghost"} size={"small"} activeLang={true}>{i.text} </Link>
+            </li>  
+            :
+            <li>
+              <Link href={i.url} intent={"ghost"} size={"small"}>{i.text}</Link>
+            </li>  
+        )
+      )
+      )}
+    </ul>
+    
+    <details class="flex md:hidden gap-3 items-center fixed top-2 right-2 text-gray-100 cursor-pointer group max-h-12 open:max-h-80 md:min-w-60 transition-all duration-300 outline-1 dark:outline open:outline outline-white rounded-md shadow-md open:bg-slate-900 dark:bg-slate-950">
+      
+      <summary class="flex gap-3 rounded-md group-open:ring-transparent ring-offset-2 focus-visible:ring focus-visible:ring-2 focus-visible:ring-emerald-400 items-center justify-center px-3 py-2 md:px-3 md:py-2 text-sm uppercase">
+        <Icon aria-hidden="true" class="group-open:rotate-90 transition-all duration-300" name="chevron" />
+        <span class="sr-only group-open:not-sr-only md:not-sr-only text-sm">{translations.langChooser}</span> 
+        <Icon aria-hidden="true" name={pageLang} />
+      </summary>
+    
+      <ul id="language-menu" class="flex flex-col gap-2 px-3 pb-3 pt-2 border-t border-t-white transition-all duration-300">
+        
+        {translations.navLang.map((i: any) => (
+          (pageLang.toLowerCase() === i.lang.toLowerCase() ? 
+              <li>
+                <Link href={i.url} intent={"ghost"} size={"small"} active={true}>{i.text}</Link>
+              </li>  
+              :
+              <li>
+                <Link href={i.url} intent={"ghost"} size={"small"}>{i.text}</Link>
+              </li>  
+          )
+        )
+        )}
+          
+      </ul>
+      
+    </details>
+    </nav>
+    
+  </div>
   
-  <nav aria-label={translations.navLangAria} class="flex gap-3 items-center fixed top-4 md:top-2 right-2 text-gray-100">
+  
+  
+  <!-- <nav aria-label={translations.navLangAria} class="flex md:hidden gap-3 items-center fixed top-4 md:top-2 right-2 text-gray-100">
     
     <details class="cursor-pointer group max-h-12 open:max-h-80 md:min-w-60 transition-all duration-300 outline-1 dark:outline open:outline outline-white rounded-md shadow-md bg-slate-900 dark:bg-slate-950">
       
@@ -60,6 +109,6 @@ const { translations, pageLang  } = Astro.props;
       
     </details>
     
-  </nav> 
+  </nav>  -->
 
 </header>

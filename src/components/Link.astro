@@ -10,6 +10,7 @@ const {
   size = "medium",
   blockSpacing = "normal",
   active = false,
+  activeLang = false,
   ...rest
 } = Astro.props;
 
@@ -41,6 +42,9 @@ const link = cva(
       },
       active: {
         true: ["after:absolute after:-right-1 after:content-['✓']"],
+      },
+      activeLang: {
+        true: ["after:absolute after:-right-1 after:content-['✓']"],
       }
     },
     compoundVariants: [
@@ -52,6 +56,6 @@ const link = cva(
 
 ---
 
-<a href={href} {...rest} class={link({ intent, size, blockSpacing, active })}>
+<a href={href} {...rest} class={link({ intent, size, blockSpacing, active, activeLang })}>
   <slot />
 </a>

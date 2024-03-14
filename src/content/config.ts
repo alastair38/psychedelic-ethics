@@ -29,7 +29,6 @@ const translationCollection = defineCollection({
       versionText: z.object({
         en: z.string(),
         fr: z.string(),
-        es: z.string(),
         'es-419': z.string(),
         'pt-BR': z.string(),
         nl: z.string(),

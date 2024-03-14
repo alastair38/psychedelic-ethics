@@ -12,7 +12,7 @@ export default defineConfig({
   site: 'https://psychedelic-ethics.vercel.app',
   i18n: {
     defaultLocale: 'en',
-    locales: ['es', 'en', 'fr', 'es-419', 'nl', 'de', 'pt-BR'],
+    locales: ['en', 'fr', 'es-419', 'nl', 'de', 'pt-BR'],
     routing: {
       prefixDefaultLocale: false,
     },
@@ -27,7 +27,6 @@ export default defineConfig({
     //     defaultLocale: 'en', // All urls that don't contain `es` or `fr` after `https://stargazers.club/` will be treated as default locale, i.e. `en`
     //     locales: {
     //       en: 'en', // The `defaultLocale` value must present in `locales` keys
-    //       es: 'es',
     //       fr: 'fr',
     //       'es-419': 'es-419',
     //       nl: 'nl',
