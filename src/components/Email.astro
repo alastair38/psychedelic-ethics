@@ -10,7 +10,11 @@ import { Icon } from 'astro-icon/components';
 </span>
 
 <script data-astro-rerun is:inline>
-var email = "ZWR3YXJkLmphY29ic0Bwc3ljaC5veC5hYy51aw==";
-const el = document.getElementById("email"); 
-if(el) el.innerHTML = atob(email);
+  
+  document.addEventListener('astro:page-load', () => { 
+    var email = "ZWR3YXJkLmphY29ic0Bwc3ljaC5veC5hYy51aw==";
+    const el = document.getElementById("email"); 
+    if(el) el.innerHTML = atob(email);
+});
+
 </script>
