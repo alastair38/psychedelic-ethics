@@ -1,11 +1,19 @@
 ---
 import { Icon } from 'astro-icon/components';
+import Email from './Email.astro';
 ---
 
 <footer class="flex flex-col gap-6 md:flex-row justify-center items-center md:gap-12 p-6 bg-slate-900 dark:bg-slate-950 mt-auto">
   
-  <div class="flex flex-col justify-center items-center">
-  <Icon aria-hidden="true" name="logoBG" class="w-20 h-20" />
-  <a href="/" class="text-sm text-white">The Hub at Oxford for Psychedelic Ethics</a></div>
-  
+  <div class="flex flex-col gap-6 items-center justify-center text-white">
+    
+    <div>
+      <Icon aria-hidden="true" name="logoBG" class="w-20 h-20 mx-auto" />
+      <a class="text-sm" href="/">The Hub at Oxford for Psychedelic Ethics</a>
+    </div>
+    
+    <Email />
+   
+  </div>
+
 </footer>

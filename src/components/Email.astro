@@ -1,0 +1,16 @@
+---
+import { Icon } from 'astro-icon/components';
+---
+
+<span class="flex items-center justify-center gap-2 font-mono">
+  <Icon aria-hidden="true" name="mail" class="w-4 h-4"/>
+  <span id="email">
+    <noscript>JS is required to see this address</noscript>
+  </span>
+</span>
+
+<script>
+var email = "ZWR3YXJkLmphY29ic0Bwc3ljaC5veC5hYy51aw==";
+const el = document.getElementById("email"); 
+if(el) el.innerHTML = atob(email);
+</script>
