@@ -1,28 +1,15 @@
 ---
 import Footer from "@components/Footer.astro";
 import Nav from "@components/Nav.astro";
+import Versions from "@components/Versions.astro";
 import { ViewTransitions } from 'astro:transitions';
 import Seo from "@components/Seo.astro";
-import { Icon } from "astro-icon/components";
-import { getEntries, type CollectionEntry } from "astro:content";
+import { getEntries } from "astro:content";
 import Toc from "@components/Toc.astro";
 
-const { pageData, pageTitle, socialImage, headings, pageTranslation, ...rest  } = Astro.props.frontmatter || Astro.props;
+const { pageData, pageTitle, socialImage, headings, pageTranslation  } = Astro.props.frontmatter || Astro.props;
 
 const relatedPages = pageData.otherLanguages && await getEntries(pageData.otherLanguages);
-
-function versionText(textObj: any, lang: string) {
-	const textObjArr = Object.fromEntries(Object.entries(textObj).filter(([key]) => key.includes(lang)));
-	const [text] = Object.keys(textObjArr);
-	//console.log(textObjArr[text])
-	return textObjArr[text];
-}
-
-let path = Astro.url.pathname;
-
-if(path === '/') {
-	path = '//';
-}
 
 ---
 <!DOCTYPE html>
@@ -62,25 +49,9 @@ if(path === '/') {
 				<h1 class="text-xl md:text-3xl text-pretty dark:text-white">{pageData?.title}</h1>
 				
 				<slot />
+				
+				<Versions pageTranslation={pageTranslation} relatedPages={relatedPages} pageData={pageData} />
 			 
-			 <div class="flex flex-col md:flex-row items-center rounded-md gap-6 mt-12 divide-x">
-				
-				<span class="text-xs uppercase dark:text-white">{pageTranslation.data.versions} </span>
-				
-				<nav aria-label={pageTranslation.data.versions} class="flex flex-wrap justify-center gap-4 px-6">
-				
-				{relatedPages && relatedPages.map((page: CollectionEntry<'pages'>) => {
-					
-					path === `/${page.slug}/` ?
-					<a title={`${versionText(pageTranslation.data.versionText, page.data.translation.id)}`} class="flex items-center justify-center bg-gray-100 rounded-full h-12 w-12 items-center gap-1 outline-2 outline-offset-2 outline-teal-200 outline hover:outline focus-visible:outline hover:outline-black focus-visible:outline-black" href={`${Astro.url.origin}/${page.slug !== '' ? `${page.slug}/` : `${page.slug}`}`}><Icon aria-hidden="true" name={page.data.translation.id} /> <span class="sr-only">{versionText(pageTranslation.data.versionText, page.data.translation.id)}</span></a> :
-					<a title={`${versionText(pageTranslation.data.versionText, page.data.translation.id)}`} class="flex items-center justify-center bg-gray-100 rounded-full h-12 w-12 items-center gap-1 outline-2 outline-offset-2 hover:outline-teal-200 hover:outline focus-visible:outline" href={`${Astro.url.origin}/${page.slug !== '' ? `${page.slug}/` : `${page.slug}`}`}><Icon aria-hidden="true" name={page.data.translation.id} /> <span class="sr-only">{versionText(pageTranslation.data.versionText, page.data.translation.id)}</span> </a>
-					
-				})}
-				
-			 	{pageData.file && <a title={pageTranslation.data.pdfLink} class="bg-gray-100 no-underline flex items-center justify-center h-12 w-12 rounded-full outline-2 outline-offset-2 hover:outline-teal-200 hover:outline focus-visible:outline" href={`/${pageTranslation.id}/${pageData.file}`} data-astro-reload><Icon aria-hidden="true" name="pdf" class="w-6 h-6" /><span class="sr-only">{pageTranslation.data.pdfLink}</span></a>}	
-
-				</nav>
-			 </div>
 		</div>
 		
 	 	</main>
