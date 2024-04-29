@@ -9,7 +9,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://psychedelic-ethics.vercel.app',
+  site: 'https://hope-statement.com/',
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'fr', 'es-419', 'nl', 'de', 'pt-BR'],
