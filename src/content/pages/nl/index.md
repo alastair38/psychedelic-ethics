@@ -118,7 +118,7 @@ Met dank aan [Mayli Mertens](https://www.uantwerpen.be/en/staff/mayli-mertens_25
   
 **Ondertekenaars**
 
-Edward Jacobs, Brian D. Earp, Paul Appelbaum, Lori Bruce, Ksenia Cassidy, Yuria Celidwen, Katherine Cheung, Sean Clancy, Neşe Devenot, Jules Evans, Holly Fernandez Lynch, Phoebe Friesen, Albert Garcia Romeu, Neil Gehani, Molly Maloof, Olivia Marcus, Ole Martin Moen, Mayli Mertens, Sandeep M. Nayak, Tehseen Noorani, Kyle Patch, Sebastian Porsdam-Mann, Gokul Raj, Khaleel Rajwani, Keisha Ray, William Smith, Daniel Villager, Neil Levy, Roger Crisp, Julian Savulescu, Ilina Singh, David B. Yaden
+Edward Jacobs, Brian D. Earp, Paul Appelbaum, Lori Bruce, Ksenia Cassidy, Yuria Celidwen, Katherine Cheung, Sean Clancy, Neşe Devenot, Jules Evans, Holly Fernandez Lynch, Phoebe Friesen, Albert Garcia Romeu, Neil Gehani, Molly Maloof, Olivia Marcus, Ole Martin Moen, Mayli Mertens, Sandeep M. Nayak, Tehseen Noorani, Kyle Patch, Sebastian Porsdam-Mann, Gokul Raj, Khaleel Rajwani, Keisha Ray, William Smith, Daniel Villiger, Neil Levy, Roger Crisp, Julian Savulescu, Ilina Singh, David B. Yaden
 
 </div>
 
