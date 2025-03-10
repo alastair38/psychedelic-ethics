@@ -1,63 +1,83 @@
 ---
-import Footer from "@components/Footer.astro";
-import Nav from "@components/Nav.astro";
-import Versions from "@components/Versions.astro";
+import Footer from '@components/Footer.astro';
+import Nav from '@components/Nav.astro';
+import Versions from '@components/Versions.astro';
 import { ViewTransitions } from 'astro:transitions';
-import Seo from "@components/Seo.astro";
-import { getEntries } from "astro:content";
-import Toc from "@components/Toc.astro";
+import Seo from '@components/Seo.astro';
+import { getEntries } from 'astro:content';
+import Toc from '@components/Toc.astro';
 
-const { pageData, pageTitle, socialImage, headings, pageTranslation  } = Astro.props.frontmatter || Astro.props;
+const { pageData, pageTitle, socialImage, headings, pageTranslation } =
+  Astro.props.frontmatter || Astro.props;
 
-const relatedPages = pageData.otherLanguages && await getEntries(pageData.otherLanguages);
-
+const relatedPages =
+  pageData.otherLanguages && (await getEntries(pageData.otherLanguages));
 ---
-<!DOCTYPE html>
-<html class="scroll-smooth scroll-pt-32" lang=`${pageTranslation.id}`>
 
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#332020">
-		<meta name="msapplication-TileColor" content="#2b5797">
-		<meta name="theme-color" content="#ffffff">
-		
-		<!-- SEO -->
-		<Seo pageData={pageData} pageTitle={pageTitle} socialImage={socialImage} hrefLang={relatedPages} lang={pageTranslation.id} />
-	
-		<ViewTransitions />
-		
-	</head>
-	
-	<body class="min-h-[101vh] flex flex-col justify-between dark:bg-slate-900">
-		
-		<Nav translations={pageTranslation.data} pageLang={pageTranslation.id}/>
-		
-		<main class="my-6 md:my-12 p-4" >
-			
-			{headings && headings.length > 0 && <Toc headings={headings} translations={pageTranslation.data}/>}
-			
-			 <div class="prose dark:prose-invert prose-sm md:prose-base prose-h2:text-lg md:prose-h2:text-2xl prose-ol:list-roman mx-auto max-w-[75ch]">
-				
-				<h1 class="text-xl md:text-3xl text-pretty dark:text-white">{pageData?.title}</h1>
-				
-				<slot />
-				
-				<Versions pageTranslation={pageTranslation} relatedPages={relatedPages} pageData={pageData} />
-			 
-		</div>
-		
-	 	</main>
-		
-		<Footer />
-	
-	</body>
-	
+<!doctype html>
+<html class="scroll-smooth scroll-pt-32" lang=`${pageTranslation.id}`>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#332020" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- SEO -->
+    <Seo
+      pageData={pageData}
+      pageTitle={pageTitle}
+      socialImage={socialImage}
+      hrefLang={relatedPages}
+      lang={pageTranslation.id}
+    />
+
+    <ViewTransitions />
+  </head>
+
+  <body class="min-h-[101vh] flex flex-col justify-between dark:bg-slate-900">
+    <Nav translations={pageTranslation.data} pageLang={pageTranslation.id} />
+
+    <main class="my-6 md:my-12 p-4">
+      {
+        headings && headings.length > 0 && (
+          <Toc headings={headings} translations={pageTranslation.data} />
+        )
+      }
+
+      <div
+        class="prose dark:prose-invert prose-sm md:prose-base prose-h2:text-lg md:prose-h2:text-2xl prose-ol:list-roman mx-auto max-w-[75ch]"
+      >
+        <h1 class="text-xl md:text-3xl text-pretty dark:text-white">
+          {pageData?.title}
+        </h1>
+
+        <slot />
+
+        <Versions
+          pageTranslation={pageTranslation}
+          relatedPages={relatedPages}
+          pageData={pageData}
+        />
+      </div>
+      <div
+        class="fixed w-1/2 bottom-4 right-4 text-sm md:text-base p-2 md:w-72 rounded-md shadow-md bg-emerald-300 md:p-3"
+      >
+        View HOPE's response to the <a
+          class="underline hover:no-underline focus-visible:no-underline"
+          href="/hope-rfi-response.pdf"
+          >US Congress' request for information on psychedelic research (PDF)</a
+        >
+      </div>
+    </main>
+
+    <Footer />
+  </body>
 </html>

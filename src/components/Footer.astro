@@ -3,13 +3,18 @@ import { Icon } from 'astro-icon/components';
 import Email from './Email.astro';
 ---
 
-<footer class="flex flex-col gap-6 text-gray-100 justify-center items-center px-6 py-8 bg-slate-900 dark:bg-slate-950 mt-auto">
-      
-    <a title="Hub at Oxford for Psychedelic Ethics" class="flex h-fit focus-visible:outline outline-1 hover:opacity-85 outline-emerald-400 outline-offset-4" href="/">
-      <Icon aria-hidden="true" name="logoBG" class="w-20 h-auto mx-auto" />
-      <span class="sr-only">The Hub at Oxford for Psychedelic Ethics</span>
-    </a>
-    
-    <Email />
-   
+<footer
+  class="flex flex-col gap-6 text-gray-100 justify-center items-center px-6 py-8 bg-slate-900 dark:bg-slate-950 mt-auto"
+>
+  <a
+    title="Hub at Oxford for Psychedelic Ethics"
+    class="flex h-fit focus-visible:outline outline-1 hover:opacity-85 outline-emerald-400 outline-offset-4"
+    target="_blank"
+    href="https://www.practicalethics.ox.ac.uk/hope"
+  >
+    <Icon aria-hidden="true" name="logoBG" class="w-20 h-auto mx-auto" />
+    <span class="sr-only">The Hub at Oxford for Psychedelic Ethics</span>
+  </a>
+
+  <Email />
 </footer>

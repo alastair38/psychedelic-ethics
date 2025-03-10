@@ -19,6 +19,8 @@ translation: nl
 
 [Download de consensusverklaring in het Engels [PDF]](/report.pdf)
 
+Katherine Cheung, Caleigh Propes, Edward Jacobs, Brian D. Earp, David B. Yaden (February 2025) **Response to the US Congress Request for Information (RFI) on psychedelic research for mental health, as submitted by the Hub at Oxford for Psychedelic Ethics** [Download het artikel in het Engels [PDF]](/hope-rfi-response.pdf)
+
 Appelbaum, P. S. (2022). **Psychedelic research and the real world**. Nature, 609(7929), S95-S95.
 
 Breeksema, J. J., Kuin, B. W., Kamphuis, J., van den Brink, W., Vermetten, E., & Schoevers, R. A. (2022). **Adverse events in clinical treatments with serotonergic psychedelics and MDMA: A mixed-methods systematic review**. Journal of Psychopharmacology, 36(10), 1100-1117.
